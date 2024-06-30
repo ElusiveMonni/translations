@@ -17,8 +17,5 @@ msgstr ""
 msgid "Monni"
 msgstr "Monni"
 
-msgid "coolest"
-msgstr "Petting is a nice thing to do"
-
 msgid "test"
 msgstr "test"
