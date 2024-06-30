@@ -17,6 +17,3 @@ msgstr ""
 
 msgid "Monni"
 msgstr "Monni"
-
-msgid "test"
-msgstr "test"
