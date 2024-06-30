@@ -1,1 +1,22 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-30 11:08+0000\n"
+"PO-Revision-Date: 2024-06-30 11:08+0000\n"
+"Last-Translator: Weblate Admin <weblate.admin@monni.fyi>\n"
+"Language-Team: English <http://weblate.monni.fyi/projects/monni-bot/misc/en/>"
+"\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.6.1\n"
 
+msgid "Monni"
+msgstr "Monni"
+
+msgid "test"
+msgstr "test"
