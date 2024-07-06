@@ -30,3 +30,7 @@ discord-whois-nitro-booster-bool =
 discord-whois-nitro-booster-since = |**Nostattja lähtien**: { $booster_time }
 discord-whois-guild-badges = Palvelin merkit
 discord-whois-monni-badges = Monni merkit
+slash-discord-get-info = hae_tiedot
+argument-member = jäsen
+slash-discord-get-info-member-argument = Discord jäsen tai tunniste
+slash-discord-get-info-description = Hae tietoa discord käyttäjästä.

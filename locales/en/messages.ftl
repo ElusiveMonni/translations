@@ -29,3 +29,7 @@ discord-whois-nitro-booster-since = |**Booster since**: {$booster_time}
 discord-whois-category-nitro = Nitro
 discord-whois-guild-badges = Guild badges
 discord-whois-monni-badges = Monni badges
+slash-discord-get-info = get_info
+argument-member = member
+slash-discord-get-info-member-argument = Discord member or id
+slash-discord-get-info-description = Get information about a discord account.
