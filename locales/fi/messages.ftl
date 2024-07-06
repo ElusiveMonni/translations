@@ -34,3 +34,4 @@ slash-discord-get-info = hae_tiedot
 argument-member = jäsen
 slash-discord-get-info-member-argument = Discord jäsen tai tunniste
 slash-discord-get-info-description = Hae tietoa discord käyttäjästä.
+discord-whois-category-nitro = Nitro
