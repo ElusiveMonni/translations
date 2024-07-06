@@ -11,3 +11,4 @@ discord_permission_create_instant_invite = kutsun luonti
 discord_permission_administrator = järjestelmänvalvoja
 discord-whois-badges = Merkit
 discord-unknown-invite = Tuntematon
+discord-unknown-member = Tuntematon
