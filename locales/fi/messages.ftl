@@ -18,3 +18,15 @@ discord-whois-bot-boolean =
         [True] Tosi
        *[False] Epätosi
     }
+discord-whois-used-invite-creator = |**Kutsun luoja**: { $creator }
+discord-whois-invite-category = Kutsu
+discord-whois-member-id = |**Tunniste**: { $member_id }
+discord-whois-misc-section = Sekalaiset
+discord-whois-nitro-booster-bool =
+    |**Nostattaja**: { $is_booster ->
+        [True] Tosi
+       *[False] Epätosi
+    }
+discord-whois-nitro-booster-since = |**Nostattja lähtien**: { $booster_time }
+discord-whois-guild-badges = Palvelin merkit
+discord-whois-monni-badges = Monni merkit
