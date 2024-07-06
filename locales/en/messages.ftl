@@ -12,20 +12,20 @@ discord_permission_administrator = administrator
 discord-whois-badges = Badges
 discord-unknown-invite = Unknown
 discord-unknown-member = Unknown
-discord-whois-used-invite = **Invite used**: {$used}
-discord-whois-used-invite-creator = **Invite creator**: {$creator}
+discord-whois-used-invite = |**Invite used**: {$used}
+discord-whois-used-invite-creator = |**Invite creator**: {$creator}
 discord-whois-invite-category = Invite
-discord-whois-member-id = **Id**: {$member_id}
-discord-whois-bot-boolean = **Bot**: { $is_bot ->
+discord-whois-member-id = |**Id**: {$member_id}
+discord-whois-bot-boolean = |**Bot**: { $is_bot ->
     [True] True
    *[False] False
 }
 discord-whois-misc-section = Miscellaneous
-discord-whois-nitro-booster-bool = **Booster**: { $is_booster ->
+discord-whois-nitro-booster-bool = |**Booster**: { $is_booster ->
     [True] True
    *[False] False
 }
-discord-whois-nitro-booster-since = **Booster since**: {$booster_time}
+discord-whois-nitro-booster-since = |**Booster since**: {$booster_time}
 discord-whois-category-nitro = Nitro
 discord-whois-guild-badges = Guild badges
 discord-whois-monni-badges = Monni badges

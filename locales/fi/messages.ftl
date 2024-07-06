@@ -12,4 +12,4 @@ discord_permission_administrator = järjestelmänvalvoja
 discord-whois-badges = Merkit
 discord-unknown-invite = Tuntematon
 discord-unknown-member = Tuntematon
-discord-whois-used-invite = { "*" }*Käytetty kutsu**: { $used }
+discord-whois-used-invite = |**Käytetty kutsu**: {$used}
