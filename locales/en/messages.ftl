@@ -2,8 +2,7 @@ test = test
 -brand-name = Monni
 discord-whois-no-roles = User has no roles.
 discord-whois-roles-field-title = Roles ({ $count })
-discord-permission-administrator = administrator
-discord-permissions-administrator = administrator
-discord-permission-ban_members = ban_members
-discord-permission-create_instant_invite = create_instant_invite
-discord-permission-kick_members = kick_members
+discord-whois-account-created = Created
+discord-whois-join-time = Joined
+member-permissions = Permissions
+
