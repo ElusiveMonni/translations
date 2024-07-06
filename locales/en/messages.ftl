@@ -5,4 +5,7 @@ discord-whois-roles-field-title = Roles ({ $count })
 discord-whois-account-created = Created
 discord-whois-join-time = Joined
 member-permissions = Permissions
-
+discord_permission_kick_members = kick members
+discord_permission_ban_members = ban members
+discord_permission_create_instant_invite = create instant invites
+discord_permission_administrator = administrator
