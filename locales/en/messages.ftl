@@ -67,3 +67,5 @@ discord_permission_manage_nicknames = manage_nicknames
 discord_permission_moderate_members = moderate_members
 discord_permission_manage_roles = manage_roles
 discord_permission_create_expressions = create_expressions
+discord_permission_manage_events = manage_events
+discord_permission_view_audit_log = view_audit_log
