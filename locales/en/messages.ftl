@@ -69,3 +69,5 @@ discord_permission_manage_roles = manage_roles
 discord_permission_create_expressions = create_expressions
 discord_permission_manage_events = manage_events
 discord_permission_view_audit_log = view_audit_log
+discord_permission_manage_messages = manage_messages
+discord_permission_manage_guild = manage_guild
