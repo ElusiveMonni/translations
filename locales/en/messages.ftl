@@ -94,3 +94,5 @@ team-work-power-tip = In teamwork, there is power. Just look at simpukka and Mon
 lightbulb-joke-tip = How many Monni's are needed to change a lightbulb? Zero, Monni doesn't have hands.
 why-not-petting-monni-tip = Why aren't you petting Monni?
 live-to-die-tip = In order to live, you must die.
+discord_permission_mute_members = mute_members
+discord_permission_manage_expressions = manage_expressions
