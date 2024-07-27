@@ -101,3 +101,6 @@ monni-malformed-api-request = Something went wrong with fetching data! Please tr
 monni-api-requested-user-no-exist = Requested user doesn't exist!
 monni-api-returned-malformed-request = API returned malformed response!
 monni-api-timeout = Api server response timedout. Please rerun the command.
+join-the-support-server-error-button = Join support server
+generic-app-command-error = During execution of this command following error happened:\n `{ $error }`\n\nPlease report this bug at our [support server]({ $support_server_link }) with code `{ $error_identifier }`!
+generic-view-error = During execution of this action following error happened:\n `{ $error }`\n\nPlease report this bug at our [support server]({ $support_server_link }) with code `{ $error_identifier }`!
