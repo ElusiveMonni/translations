@@ -96,3 +96,6 @@ why-not-petting-monni-tip = Why aren't you petting Monni?
 live-to-die-tip = In order to live, you must die.
 discord_permission_mute_members = mute_members
 discord_permission_manage_expressions = manage_expressions
+discord_permission_view_guild_insights = view_guild_insights
+discord_permission_move_members = move_members
+discord_permission_deafen_members = deafen_members
