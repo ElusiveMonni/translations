@@ -99,3 +99,4 @@ discord_permission_manage_expressions = manage_expressions
 discord_permission_view_guild_insights = view_guild_insights
 discord_permission_move_members = move_members
 discord_permission_deafen_members = deafen_members
+discord_permission_priority_speaker = priority_speaker
