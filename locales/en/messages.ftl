@@ -71,7 +71,7 @@ discord_permission_manage_events = manage events
 discord_permission_view_audit_log = view audit log
 discord_permission_manage_messages = manage messages
 discord_permission_manage_guild = manage guild
-data-caching-tip = Monni uses data caching which means data may not always be up to date!
+data-caching-tip = Monni uses data caching, which means data may not always be up to date!
 privacy-joke-tip = Privacy my beloved, what happened to you?
 hates-loud-sounds-tip = Monni hates loud sounds.
 simpukka-helps-monni-tip = Simpukka helps Monni do things he otherwise couldn't.
@@ -106,11 +106,13 @@ monni-api-failed-to-authenticate = Monni failed to authenticate with api server!
 monni-malformed-api-request = Something went wrong with fetching data! Please try again. If this does not work, please report this bug.
 monni-api-requested-user-no-exist = Requested user doesn't exist!
 monni-api-returned-malformed-request = API returned malformed response!
-monni-api-timeout = Api server response timedout. Please rerun the command.
+monni-api-timeout = Api server response timed out. Please rerun the command.
 join-the-support-server-error-button = Join support server
-generic-app-command-error = During execution of this command following error happened:
+generic-app-command-error =
+    During execution of this command following error happened:
     `{ $error }`
     Please report this bug at our [support server]({ $support_server_link }) with code `{ $error_identifier }`!
-generic-view-error = During execution of this action following error happened:
+generic-view-error =
+    During execution of this action following error happened:
     `{ $error }`
     Please report this bug at our [support server]({ $support_server_link }) with code `{ $error_identifier }`!
