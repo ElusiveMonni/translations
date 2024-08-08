@@ -35,3 +35,5 @@ argument-member = jäsen
 slash-discord-get-info-member-argument = Discord jäsen tai tunniste
 slash-discord-get-info-description = Hae tietoa discord käyttäjästä.
 discord-whois-category-nitro = Nitro
+discord_permission_create_public_threads = luo julkisia ketjuja
+discord_permission_use_external_sounds = käytä ulkoisia ääniä
