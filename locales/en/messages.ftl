@@ -116,3 +116,4 @@ generic-view-error =
     During execution of this action following error happened:
     `{ $error }`
     Please report this bug at our [support server]({ $support_server_link }) with code `{ $error_identifier }`!
+discord-group-description = Discord related commands.
