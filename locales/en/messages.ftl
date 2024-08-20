@@ -117,3 +117,4 @@ generic-view-error =
     `{ $error }`
     Please report this bug at our [support server]({ $support_server_link }) with code `{ $error_identifier }`!
 discord-group-description = Discord related commands.
+discord_permission_manage_channels = manage_channels
