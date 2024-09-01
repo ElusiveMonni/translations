@@ -153,3 +153,4 @@ monni-invite-info-invite-uses = |**Uses:** { $uses }
 monni-invite-info-invite-created-at = |**Created at:** <t:{ $created_at }:d>
 monni-invite-info-invite-expires-at = |**Expires:** { $expire_at }
 monni-invite-info-channel-id = |**Invite channel:** <#{ $invite_channel_id }>
+discord_permission_view_creator_monetization_analytics = view_creator_monetization_analytics
