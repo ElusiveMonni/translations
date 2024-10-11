@@ -160,3 +160,7 @@ monni-log-invite-created-uses = |**Max uses:** { $uses }
 monni-log-invite-created-expires = |**Expires in:** { $expires}
 monni-log-invite-created-title = Invite created
 monni-invite-creator-id = Creator id: { $creator_id }
+monni-log-invite-deleted-title = Invite deleted
+monni-log-invite-deleted-description = Invite deleted { $invite_url }
+discord-unknown-id = unknown
+monni-invite-unknown-deleter = Unknown deleter
