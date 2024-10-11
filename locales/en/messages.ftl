@@ -164,3 +164,6 @@ monni-log-invite-deleted-title = Invite deleted
 monni-log-invite-deleted-description = Invite deleted { $invite_url }
 discord-unknown-id = unknown
 monni-invite-unknown-deleter = Unknown deleter
+verified_account_app_command_name = verified_account
+verified_account_app_command_description = Get info of the account user has verified with.
+verified_account_context_menu_name = Verified account
