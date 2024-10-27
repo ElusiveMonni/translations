@@ -178,6 +178,7 @@ verify_app_command_verify_roblox_embed_description = Please verify your roblox a
 account_manually_verified = Account has been manually verified!
 verified-account-select = Select account to verify as
 discord-unknown-account = Unknown
+discord-unknown-error = unknown
 verified-account-select-verified-as = Verified as { $account }.
 verify-welcome_dm-title = { $name } is protected by Monni verification bot.
 verify-welcome_dm-description = Please verify your account to gain access to rest of the server. Please select a verified account below or verify a new one **[here]({ $verify_url })**. Alternatively you can press verify button below to verify a new account.
