@@ -184,5 +184,5 @@ monni-invite-info-invite-creator = |**Creator invitație:** <@{ $inviter_id }>
 monni-invite-info-invite-uses = |**Utilizări:** { $uses }
 monni-invite-info-invite-expires-at = |**Expiră:** { $expire_at }
 monni-invite-info-channel-id = |**Canal invitație:** <#{ $invite_channel_id }>
-slash-invite-group-sync-name = sync
+slash-invite-group-sync-name = sincronizare
 monni-invite-info-invite-created-at = |**Creat la:** &lt;t:{ $created_at }:d>
