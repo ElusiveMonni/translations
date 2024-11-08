@@ -45,13 +45,13 @@ discord_permission_manage_messages = hallinnoi viestejä
 remark-of-monni-being-smart-tip = Monni on viisas, vaikka vain kala onkin.
 join-the-support-server-error-button = Liity tuki palvelimelle
 generic-app-command-error =
-    Komennon pyörityksen aikana seuraava virhe tapahtuma:
+    Komennon pyörityksen aikana tapahtui seuraava virhe:
     `{ $error }`
-    Raportoi tämä virhe meidän [tuki palvelimella]({ $support_server_link }) koodilla `{ $error_identifier }`!
+    Ilmoitathan tästä virheestä meidän [tuki palvelimella]({ $support_server_link }) koodilla `{ $error_identifier }`!
 generic-view-error =
-    Tämän toiminnan aikana seuraava virhe tapahtuma:
+    Tämän toiminnan aikana tapahtui seuraava virhe:
     `{ $error }`
-    Raportoi tämä virhe meidän [tuki palvelimella]({ $support_server_link }) koodilla `{ $error_identifier }`!
+    Ilmoitathan tästä virheestä meidän [tuki palvelimella]({ $support_server_link }) koodilla `{ $error_identifier }`!
 discord_permission_embed_links = upottaa linkkejä
 discord_permission_read_messages = lue viestejä
 discord_permission_read_message_history = lue viesti historiaa
