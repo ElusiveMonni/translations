@@ -222,10 +222,17 @@ something-went-wrong = Something went wrong.
 number-select-invalid-number = Invalid number.
 number-select-modal-item = item
 number-select-modal-title = Select { $item }
-number-select-modal-field-label = Write item number to choose
-number-select-modal-field-placeholder = Write number of the item here...
+number-select-modal-field-label = Write { $item } number to choose
+number-select-modal-field-placeholder = Write number of the { $item } here...
 discord-slash-tag-get-describe-tag = Tag to send.
 discord-slash-tag-get-describe-hidden = Send this message privately so it remains visible only to you.
 discord-slash-tag-get-describe-copy-mode = Send this message in copy mode so you can easily copy and later paste it. Neccessary in cases where server has disabled user commands.
 discord-ephemeral-argument = hidden
-discord-tag-get-argument-copy-mode = "copy_mode"
+discord-tag-get-argument-copy-mode = copy_mode
+discord-slash-cooldown-error = Hold on! Monni needs a moment to catch up. Try again in **{ $seconds }** seconds. Monni request you only use this command {$rate ->
+        [one] **once** every
+       *[other] **{ $rate }** times every
+    } {$per ->
+        [one] **second**
+       *[other] **{ $per }** seconds
+    }!
