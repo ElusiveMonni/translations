@@ -229,10 +229,37 @@ discord-slash-tag-get-describe-hidden = Send this message privately so it remain
 discord-slash-tag-get-describe-copy-mode = Send this message in copy mode so you can easily copy and later paste it. Neccessary in cases where server has disabled user commands.
 discord-ephemeral-argument = hidden
 discord-tag-get-argument-copy-mode = copy_mode
-discord-slash-cooldown-error = Hold on! Monni needs a moment to catch up. Try again in **{ $seconds }** seconds. Monni request you only use this command {$rate ->
+discord-slash-cooldown-error = Hold on! Monni needs a moment to catch up. Try again in **{ $seconds }** seconds. Monni requests you only use this command {$rate ->
         [one] **once** every
        *[other] **{ $rate }** times every
     } {$per ->
         [one] **second**
        *[other] **{ $per }** seconds
     }!
+discord-slash-reminder = reminder
+discord-slash-reminder-description = Reminder related commands.
+discord-slash-reminder-create = create
+discord-slash-reminder-create-description = Create a new Reminder. don't worry, Monni isn't going to forget.
+discord-slash-reminder-create-describe-about = Topic the reminder is about.
+discord-slash-reminder-create-describe-description = Description of the reminder.
+discord-slash-reminder-create-describe-time = Time at which Monni should remind you.
+discord-slash-reminder-create-describe-repeating = Should the reminder keep reminding until dismissed?
+discord-slash-reminder-create-argument-about = about
+discord-slash-reminder-create-argument-description = description
+discord-slash-reminder-create-argument-time = time
+discord-slash-reminder-create-argument-repeating = repeating
+discord-reminder-create-message-over-freemium-limit = You can have only up to { $max_reminders } reminders. With premium you can increase this limit to { $max_premium_reminders }.
+discord-reminder-create-message-over-premium-limit = You can have only up to { $max_reminders } reminders. If you need the limit to be higher please request it at our support server.
+reminder-id-embed-footer = Reminder id: { $reminder_id }
+reminder-remind-at-field = Remind at
+discord-reminder-create-message-created = New reminder created
+reminder-manage-enable-repeating-button = Turn into repeating reminder
+reminder-manage-disable-repeating-button = Disable repeating
+reminder-manage-delete-reminder-button = Delete reminder
+discord-reminder-manage-embed-list-title = Reminders
+discord-reminder-paginator-select-label = Select reminder
+discord-reminder-paginator-select-item-name = reminder
+discord-reminder-manage-message-select = Select reminder to edit
+discord-slash-reminder-manage = manage
+discord-slash-reminder-manage-description = Manage your reminders
+discord-send-reminder-text = You asked Monni to remind you at the following [channel]({ $jump_url }). This reminder was created at { $time } ({ $relative_time })
