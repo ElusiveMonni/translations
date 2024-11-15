@@ -184,6 +184,7 @@ verify-welcome_dm-title = { $name } is protected by Monni verification bot.
 verify-welcome_dm-description = Please verify your account to gain access to rest of the server. Please select a verified account below or verify a new one **[here]({ $verify_url })**. Alternatively you can press verify button below to verify a new account.
 welcome-dm-verify-link-button = Verify
 unknown-invite-info = Monni seems to be unable to find the requested invite. Perhaps try again?
+discord_permission_use_external_apps = use_external_apps
 discord-tag-slash-get = get
 discord-tag-slash-get-description = Get tag by id, name or part of content.
 discord-tag-slash-group = tag
