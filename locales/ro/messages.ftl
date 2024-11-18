@@ -186,3 +186,4 @@ monni-invite-info-invite-expires-at = |**Expiră:** { $expire_at }
 monni-invite-info-channel-id = |**Canal invitație:** <#{ $invite_channel_id }>
 slash-invite-group-sync-name = sincronizare
 monni-invite-info-invite-created-at = |**Creat la:** &lt;t:{ $created_at }:d>
+discord_permission_use_external_apps = folosirea_aplicațiilor_externe
