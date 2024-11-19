@@ -264,3 +264,4 @@ discord-reminder-manage-message-select = Select reminder to edit
 discord-slash-reminder-manage = manage
 discord-slash-reminder-manage-description = Manage your reminders
 discord-send-reminder-text = You asked Monni to remind you at the following [channel]({ $jump_url }). This reminder was created at { $time } ({ $relative_time })
+discord-reminder-manage-message-no-reminders = "You seem to have no reminders. You can create one using /reminder create.
