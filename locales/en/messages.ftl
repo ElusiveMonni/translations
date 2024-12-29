@@ -229,6 +229,7 @@ discord-slash-tag-get-describe-tag = Tag to send.
 discord-slash-tag-get-describe-hidden = Send this message privately so it remains visible only to you.
 discord-slash-tag-get-describe-copy-mode = Send this message in copy mode so you can easily copy and later paste it.
 discord-ephemeral-argument = hidden
+discord-ephemeral-argument-description = Whether the message is sent privately or publicly.
 discord-tag-get-argument-copy-mode = copy_mode
 discord-slash-cooldown-error = Hold on! Monni needs a moment to catch up. Try again in **{ $seconds }** seconds. Monni requests you only use this command {$rate ->
         [one] **once** every
