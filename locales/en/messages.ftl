@@ -277,3 +277,7 @@ help-embed-support-server = Support Server
 help-embed-invite-link = Invite link
 slash-discord-invite-monni = invite_monni
 slash-discord-invite-monni-description = Invite Monni. Remember to keep him happy!
+text-command-forum-post-missing-channel=Please provide forum channel id after member or use the command in a forum channel.
+text-command-forum-post-embed-title=Forum post history
+text-command-forum-post-embed-description=Member has created `{ $posts }` posts in <#{ $channel }>.
+prefix-error-no-private-messages=Monni refuses to let you use this command outside of servers.
