@@ -303,3 +303,4 @@ discord-max-concurrency-error = Hold on! Monni is only a fish, they can only do 
         [one] command
         *[other] commands
     } finish before retrying!
+text-command-forum-post-sync-start = Getting posts. This may take a while.
