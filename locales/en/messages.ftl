@@ -277,7 +277,29 @@ help-embed-support-server = Support Server
 help-embed-invite-link = Invite link
 slash-discord-invite-monni = invite_monni
 slash-discord-invite-monni-description = Invite Monni. Remember to keep him happy!
-text-command-forum-post-missing-channel=Please provide forum channel id after member or use the command in a forum channel.
-text-command-forum-post-embed-title=Forum post history
-text-command-forum-post-embed-description=Member has created `{ $posts }` posts in <#{ $channel }>.
-prefix-error-no-private-messages=Monni refuses to let you use this command outside of servers.
+text-command-forum-post-missing-channel = Please provide forum channel id after member or use the command in a forum channel.
+text-command-forum-post-embed-title = Forum post history
+text-command-forum-post-embed-description = Member has created `{ $posts }` posts in <#{ $channel }>.
+prefix-error-no-private-messages = Monni refuses to let you use this command outside of servers.
+text-command-forum-post-sync-missing-channel = Please provide forum channel id as an argument or use the command in a forum channel.
+text-command-forum-post-sync-user-no-posts = { $user } has no forum posts in <#{ $channel }>"
+text-command-forum-post-sync-no-posts = <#{ $channel }> has no posts.
+text-command-forum-post-sync-success-user = Syncing forum posts for { $user } in <#{ $channel }>. Member has {$post_count ->
+        [one] `{$post_count}` post
+       *[other] `{$post_count}` posts
+    }.
+text-command-forum-post-sync-success-all = Syncing forums posts in <#{ $channel }> for { $member_count ->
+        [one] `{$member_count}` member
+        *[other] `{$member_count}` members
+    }. Estimated time { $seconds ->
+        [one] `{$seconds}` second
+        *[other] `{$seconds}` seconds
+    }.
+text-command-forum-post-sync-done = Syncing forum posts done.
+discord-max-concurrency-error = Hold on! Monni is only a fish, they can only do so much. Monni only allows { $number ->
+        [one] **{$number}** concurrent command
+        *[other] **{$number}** concurrent commands
+    } running per **{ $per }**. Let the old { $number ->
+        [one] command
+        *[other] commands
+    } finish before retrying!
