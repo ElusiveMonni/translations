@@ -266,3 +266,51 @@ discord-send-reminder-text = Požádali jste Monni, aby vám to připomněla na 
 reminder-remind-at-field = Připomenout v
 discord-slash-tag-get-describe-copy-mode = Pošlete tuto zprávu v režimu kopírování, abyste ji mohli snadno zkopírovat a později vložit. Nezbytné v případech, kdy server zakázal uživatelské příkazy.
 discord-reminder-create-message-over-freemium-limit = Můžete mít maximálně { $max_reminders } připomenutí. S prémií můžete tento limit zvýšit na { $max_premium_reminders }.
+discord-slash-tag-create-description = Vytvořte nový štítek. Jen nebe je limit
+discord-ephemeral-argument-description = Zda je zpráva odeslána soukromě nebo veřejně.
+slash-discord-pet = pohladit
+slash-discord-pet-description = Nezapomeň!
+context-menu-discord-update = Aktualizace
+slash-discord-ping = zmíňka
+slash-discord-ping-description = Získejte latenci bota.
+slash-discord-ping-response = Pong!
+help-embed-support-server = Podpůrný Server
+help-embed-invite-link = Odkaz na pozvánku
+slash-discord-invite-monni = pozvat_monni
+slash-discord-invite-monni-description = Pozvěte Monni. Nezapomeňte, aby byl šťastný!
+verify_app_command_verify_embed_title = Verifikace účtu
+discord-slash-tag-group = štítek
+discord-slash-tag-group-description = Příkazy související s štítkami.
+discord-slash-tag-create = vytvořit
+text-command-forum-post-missing-channel = Zadejte ID kanálu fóra po členovi nebo použijte příkaz v kanálu fórumu.
+text-command-forum-post-embed-title = Historie póstu forumu
+text-command-forum-post-embed-description = Člen vytvořil `{ $posts }` příspěvky v <#{ $channel }>.
+prefix-error-no-private-messages = Monni vám odmítá dovolit používat tento příkaz mimo servery.
+text-command-forum-post-sync-user-no-posts = { $user } nemá žádné příspěvky na fóru v <#{ $channel }>"
+text-command-forum-post-sync-no-posts = <#{ $channel }> nemá žádné příspěvky.
+text-command-forum-post-sync-done = Synchronizace příspěvků na fóru dokončena.
+text-command-forum-post-sync-start = Získávání příspěvků. To může chvíli trvat.
+discord-reminder-manage-message-no-reminders = Zdá se, že nemáte žádné připomenutí. Můžete si jej vytvořit pomocí /reminder create.
+help-embed-dashboard = Dashboard
+text-command-forum-post-sync-missing-channel = Uveďte prosím ID kanálu fóra jako argument nebo použijte příkaz v kanálu fóra.
+text-command-forum-post-sync-success-user =
+    Synchronizace příspěvků na fóru pro { $user } v <#{ $channel }>. Člen má { $post_count ->
+        [one] `{ $post_count }` příspěvek
+       *[other] `{ $post_count }` příspěvky
+    }.
+text-command-forum-post-sync-success-all =
+    Syncing forums posts in <#{ $channel }> for { $member_count ->
+        [one] `{ $member_count }` member
+       *[other] `{ $member_count }` members
+    }. Estimated time { $seconds ->
+        [one] `{ $seconds }` second
+       *[other] `{ $seconds }` seconds
+    }.
+discord-max-concurrency-error =
+    Hold on! Monni is only a fish, they can only do so much. Monni only allows { $number ->
+        [one] { "*" }*{ $number }** concurrent command
+       *[other] { "*" }*{ $number }** concurrent commands
+    } running per **{ $per }**. Let the old { $number ->
+        [one] command
+       *[other] commands
+    } finish before retrying!
