@@ -304,3 +304,11 @@ discord-max-concurrency-error = Hold on! Monni is only a fish, they can only do 
         *[other] commands
     } finish before retrying!
 text-command-forum-post-sync-start = Getting posts. This may take a while.
+slash-discord-dashboard-description = Gets a link to guild's dashboard
+slash-discord-dashboard = dashboard
+slash-discord-dashboard-embed-title = Monni dashboard
+slash-discord-dashboard-embed-description = You can go to dashboard [here]({ $dashboard_url }) and change how Monni behaves.
+slash-discord-invite-monni-embed-title = Invite Monni
+slash-discord-invite-monni-embed-footer = Adopt your own Monni today!
+text-command-forum-post-leaderboard-no-posts = There are no posts in the selected forum. If this is false please use `forum_posts_sync`.
+text-command-forum-post-leaderboard-embed-title = Post counts for <#{ $forum_id }>
