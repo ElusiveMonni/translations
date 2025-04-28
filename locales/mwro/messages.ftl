@@ -1,1 +1,12 @@
-
+member-permissions = Sanctions
+test = scrutiny
+-brand-name = Catfish
+discord-whois-no-roles = Partaker has absence of titles.
+discord-whois-roles-field-title = Titles { $count }
+discord-whois-account-created = Sprung
+discord-whois-join-time = Entered
+discord_permission_kick_members = banish partakers
+discord_permission_ban_members = expurgate partakers
+discord_permission_create_instant_invite = construct realtime invitation
+discord_permission_administrator = maharaja
+discord-whois-badges = Trophies
