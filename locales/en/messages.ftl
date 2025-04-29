@@ -157,7 +157,7 @@ discord_permission_view_creator_monetization_analytics = view creator monetizati
 monni-log-expires-at-capital = Never
 monni-log-invite-created-link = Invite created: { $url }
 monni-log-invite-created-uses = |**Max uses:** { $uses }
-monni-log-invite-created-expires = |**Expires in:** { $expires}
+monni-log-invite-created-expires = |**Expires in:** { $expires }
 monni-log-invite-created-title = Invite created
 monni-invite-creator-id = Creator id: { $creator_id }
 monni-log-invite-deleted-title = Invite deleted
@@ -231,12 +231,13 @@ discord-slash-tag-get-describe-copy-mode = Send this message in copy mode so you
 discord-ephemeral-argument = hidden
 discord-ephemeral-argument-description = Whether the message is sent privately or publicly.
 discord-tag-get-argument-copy-mode = copy_mode
-discord-slash-cooldown-error = Hold on! Monni needs a moment to catch up. Try again in **{ $seconds }** seconds. Monni requests you only use this command {$rate ->
-        [one] **once** every
-       *[other] **{ $rate }** times every
-    } {$per ->
-        [one] **second**
-       *[other] **{ $per }** seconds
+discord-slash-cooldown-error =
+    Hold on! Monni needs a moment to catch up. Try again in **{ $seconds }** seconds. Monni requests you only use this command { $rate ->
+        [one] { "*" }*once** every
+       *[other] { "*" }*{ $rate }** times every
+    } { $per ->
+        [one] { "*" }*second**
+       *[other] { "*" }*{ $per }** seconds
     }!
 discord-slash-reminder = reminder
 discord-slash-reminder-description = Reminder related commands.
@@ -284,24 +285,27 @@ prefix-error-no-private-messages = Monni refuses to let you use this command out
 text-command-forum-post-sync-missing-channel = Please provide forum channel id as an argument or use the command in a forum channel.
 text-command-forum-post-sync-user-no-posts = { $user } has no forum posts in <#{ $channel }>"
 text-command-forum-post-sync-no-posts = <#{ $channel }> has no posts.
-text-command-forum-post-sync-success-user = Syncing forum posts for { $user } in <#{ $channel }>. Member has {$post_count ->
-        [one] `{$post_count}` post
-       *[other] `{$post_count}` posts
+text-command-forum-post-sync-success-user =
+    Syncing forum posts for { $user } in <#{ $channel }>. Member has { $post_count ->
+        [one] `{ $post_count }` post
+       *[other] `{ $post_count }` posts
     }.
-text-command-forum-post-sync-success-all = Syncing forums posts in <#{ $channel }> for { $member_count ->
-        [one] `{$member_count}` member
-        *[other] `{$member_count}` members
+text-command-forum-post-sync-success-all =
+    Syncing forums posts in <#{ $channel }> for { $member_count ->
+        [one] `{ $member_count }` member
+       *[other] `{ $member_count }` members
     }. Estimated time { $seconds ->
-        [one] `{$seconds}` second
-        *[other] `{$seconds}` seconds
+        [one] `{ $seconds }` second
+       *[other] `{ $seconds }` seconds
     }.
 text-command-forum-post-sync-done = Syncing forum posts done.
-discord-max-concurrency-error = Hold on! Monni is only a fish, they can only do so much. Monni only allows { $number ->
-        [one] **{$number}** concurrent command
-        *[other] **{$number}** concurrent commands
+discord-max-concurrency-error =
+    Hold on! Monni is only a fish, they can only do so much. Monni only allows { $number ->
+        [one] { "*" }*{ $number }** concurrent command
+       *[other] { "*" }*{ $number }** concurrent commands
     } running per **{ $per }**. Let the old { $number ->
         [one] command
-        *[other] commands
+       *[other] commands
     } finish before retrying!
 text-command-forum-post-sync-start = Getting posts. This may take a while.
 slash-discord-dashboard-description = Gets a link to guild's dashboard
@@ -312,3 +316,4 @@ slash-discord-invite-monni-embed-title = Invite Monni
 slash-discord-invite-monni-embed-footer = Adopt your own Monni today!
 text-command-forum-post-leaderboard-no-posts = There are no posts in the selected forum. If this is false please use `forum_posts_sync`.
 text-command-forum-post-leaderboard-embed-title = Post counts for <#{ $forum_id }>
+test2 = test2
