@@ -316,4 +316,3 @@ slash-discord-invite-monni-embed-title = Invite Monni
 slash-discord-invite-monni-embed-footer = Adopt your own Monni today!
 text-command-forum-post-leaderboard-no-posts = There are no posts in the selected forum. If this is false please use `forum_posts_sync`.
 text-command-forum-post-leaderboard-embed-title = Post counts for <#{ $forum_id }>
-test2 = test2
