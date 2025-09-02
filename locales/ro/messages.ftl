@@ -233,3 +233,94 @@ discord-slash-tag-group = etichetă
 discord-slash-tag-group-description = Comenzi referitoare la etichete.
 discord-slash-tag-create = creează
 discord-slash-tag-create-description = Creează o etichetă nouă. Singura limită este cerul.
+discord-ephemeral-argument = ascuns
+discord-slash-reminder-create-describe-about = Subiectul despre care este vorba în memento.
+discord-slash-reminder-create-describe-description = Descrierea mementoului.
+discord-reminder-create-message-created = A fost creat un nou memento
+discord-ephemeral-argument-description = Indiferent dacă mesajul este transmis privat sau public.
+discord-tag-get-argument-copy-mode = modul_copiere
+discord-slash-reminder = memento
+discord-slash-reminder-description = Comenzi legate de memento.
+discord-slash-reminder-create = creare
+discord-slash-reminder-create-describe-time = Momentul la care Monni ar trebui să vă reamintească.
+discord-slash-reminder-create-describe-repeating = Ar trebui ca memento-ul să continue de a reaminti până când este închis?
+discord-slash-reminder-create-argument-about = despre
+discord-slash-reminder-create-argument-description = descriere
+discord-slash-reminder-create-argument-time = timp
+discord-slash-reminder-create-argument-repeating = repetând
+discord-reminder-create-message-over-freemium-limit = Poți avea maximum { $max_reminders } mementouri. Cu abonamentul premium poți crește această limită la { $max_premium_reminders }.
+reminder-id-embed-footer = ID-ul memento-ului: { $reminder_id }
+reminder-manage-disable-repeating-button = Dezactivează repetarea
+discord-reminder-manage-embed-list-title = Mementouri
+discord-reminder-paginator-select-label = Selectați memento
+discord-reminder-paginator-select-item-name = memento
+discord-reminder-manage-message-select = Selectați memento pentru a edita
+discord-slash-reminder-manage = gestionează
+discord-slash-reminder-manage-description = Gestionați-vă mementourile
+discord-reminder-manage-message-no-reminders = Se pare că nu ai mementouri. Poți crea unul folosind /memento creare.
+slash-discord-pet = mângâie
+slash-discord-pet-description = Nu cumva să uiți!
+context-menu-discord-update = Actualizare
+slash-discord-ping = ping
+slash-discord-ping-description = Obțineți latența botului.
+slash-discord-ping-response = Pong!
+help-embed-dashboard = Tablou de bord
+help-embed-support-server = Server de asistență
+help-embed-invite-link = Link de invitație
+slash-discord-invite-monni = invită_monni
+slash-discord-invite-monni-description = Invită-l pe Monni. Nu uita să-l ții fericit!
+text-command-forum-post-embed-title = Istoricul postărilor pe forum
+prefix-error-no-private-messages = Monni refuză să te lase să folosești această comandă în afara serverelor.
+text-command-forum-post-sync-user-no-posts = { $user } nu are postări pe forum în <#{ $channel }>
+text-command-forum-post-sync-no-posts = <#{ $channel }> nu are postări.
+text-command-forum-post-sync-done = Sincronizarea postărilor de pe forum a fost finalizată.
+text-command-forum-post-sync-start = Se primesc postări. Acest lucru poate dura ceva timp.
+slash-discord-dashboard = tablou de bord
+slash-discord-dashboard-embed-title = Tabloul de bord Monni
+slash-discord-invite-monni-embed-title = Invită-l pe Monni
+slash-discord-invite-monni-embed-footer = Adoptă-ți propriul Monni astăzi!
+text-command-forum-post-leaderboard-no-posts = Nu există postări în forumul selectat. Dacă această opțiune este falsă, vă rugăm să utilizați `forum_posts_sync`.
+text-command-forum-post-leaderboard-embed-title = Numărul de postări pentru <#{ $forum_id }>
+discord-slash-tag-get-describe-tag = Etichetă de trimis.
+discord-slash-tag-get-describe-hidden = Trimite acest mesaj în privat, astfel încât să fie vizibil doar pentru tine.
+discord-slash-tag-get-describe-copy-mode = Trimiteți acest mesaj în modul de copiere pentru a-l putea copia și lipi ulterior cu ușurință.
+discord-reminder-create-message-over-premium-limit = Puteți avea doar maximum { $max_reminders } mementouri. Dacă doriți ca limita să fie mai mare, vă rugăm să solicitați acest lucru la serverul nostru de asistență.
+text-command-forum-post-embed-description = Membrul a creat postări cu textul `{ $posts }` în <#{ $channel }>.
+slash-discord-dashboard-embed-description = Poți accesa tabloul de bord [aici]({ $dashboard_url }) și schimbă comportamentul lui Monni.
+discord-slash-cooldown-error =
+    Stai puțin! Monni are nevoie de un moment să recupereze. Încearcă din nou peste **{ $seconds }** secunde. Monni te roagă să folosești această comandă doar { $rate ->
+        [one] { "*" }*once** every
+       *[other] { "*" }*{ $rate }** every
+    } { $per ->
+        [one] { "*" }*second**
+       *[other] { "*" }*{ $per }** seconds
+    }!
+discord-slash-reminder-create-description = Creează un nou memento. Nu-ți face griji, Monni nu va uita.
+reminder-remind-at-field = Amintiți la
+reminder-manage-delete-reminder-button = Ștergeți mementoul
+discord-send-reminder-text = I-ai cerut lui Monni să-ți reamintească la următorul [channel]({ $jump_url }). Această reamintire a fost creată la { $time } ({ $relative_time })
+text-command-forum-post-missing-channel = Vă rugăm să furnizați ID-ul canalului de forum după membru sau să utilizați comanda într-un canal de forum.
+slash-discord-dashboard-description = Primește un link către tabloul de bord al breslei
+reminder-manage-enable-repeating-button = Transformă în memento repetat
+text-command-forum-post-sync-success-user =
+    Se sincronizează postările de pe forum pentru { $user } în <#{ $channel }>. Membrul are { $post_count ->
+        [o] postare `{ $post_count }`
+       *[alte] postări `{ $post_count }`
+    }.
+text-command-forum-post-sync-missing-channel = Vă rugăm să furnizați ID-ul canalului de forum ca argument sau să utilizați comanda într-un canal de forum.
+text-command-forum-post-sync-success-all =
+    Se sincronizează postările de pe forumuri în <#{ $channel }> pentru { $member_count ->
+        [one] membru `{ $member_count }`
+       *[other] membri `{ $member_count }`
+    }. Timp estimat { $seconds ->
+        [one] secundă `{ $seconds }`
+       *[other] secunde `{ $seconds }`
+    }.
+discord-max-concurrency-error =
+    Hold on! Monni is only a fish, they can only do so much. Monni only allows { $number ->
+        [one] { "*" }*{ $number }** concurrent command
+       *[other] { "*" }*{ $number }** concurrent commands
+    } running per **{ $per }**. Let the old { $number ->
+        [one] command
+       *[other] commands
+    } finish before retrying!
