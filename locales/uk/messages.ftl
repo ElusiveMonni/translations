@@ -14,10 +14,10 @@ discord_permission_administrator = адміністратор
 discord-whois-badges = Значки
 discord-unknown-invite = Невідоме
 discord-unknown-member = Невідомий
-discord-whois-used-invite-creator = |**Творець запрошення**: { $creator }
+discord-whois-used-invite-creator = **Творець запрошення**: { $creator }
 discord-whois-invite-category = Запрошення
-discord-whois-member-id = |**Ідентифікатор**: { $member_id }
-discord-whois-nitro-booster-since = |**Бустер з**: { $booster_time }
+discord-whois-member-id = **Ідентифікатор**: { $member_id }
+discord-whois-nitro-booster-since = **Бустер з**: { $booster_time }
 discord-whois-category-nitro = Nitro
 discord-whois-guild-badges = Значки гільдії
 discord-whois-monni-badges = Значки Monni
@@ -59,20 +59,18 @@ discord_permission_manage_channels = керувати каналами
 test = test
 discord-whois-no-roles = Користувач не має ролей.
 discord_permission_ban_members = заблокувати користувача
-discord-whois-used-invite = |**Запрошення використано**: { $used }
+discord-whois-used-invite = **Запрошення використано**: { $used }
 argument-member = користувач
 argument-reason = причина
 slash-discord-whois-description = Отримати інформацію про обліковий запис Discord.
 discord_permission_use_voice_activation = використовувати голосову активацію
 discord_permission_use_embedded_activities = використовувати вбудовані дії
-discord-whois-bot-boolean =
-    |**Бот**: { $is_bot ->
+discord-whois-bot-boolean = **Бот**: { $is_bot ->
         [True] True
        *[False] False
     }
 discord-whois-misc-section = Додаткова
-discord-whois-nitro-booster-bool =
-    |**Бустер**: { $is_booster ->
+discord-whois-nitro-booster-bool = **Бустер**: { $is_booster ->
         [True] True
        *[False] False
     }
@@ -131,9 +129,9 @@ generic-view-error =
 slash-invite-group-create-description = Створити нове запрошення.
 slash-invite-group-info-description = Збирає інформація про запрошення.
 slash-invite-group-delete-arg-invite-id = Ідентифікатор посилання запрошення або посилання запрошення.
-monni-invite-info-invite-id = |**Ідентифікатор запрошення:** [{ $invite_id }](https://discord.gg/{ $invite_id })
-monni-invite-info-channel-id = |**Канал запрошення:** <#{ $invite_channel_id }>
-monni-log-invite-created-expires = |**Закінчується в:** { $expires }
+monni-invite-info-invite-id = **Ідентифікатор запрошення:** [{ $invite_id }](https://discord.gg/{ $invite_id })
+monni-invite-info-channel-id = **Канал запрошення:** <#{ $invite_channel_id }>
+monni-log-invite-created-expires = **Закінчується в:** { $expires }
 verify_app_command_verify_roblox_embed_description = Будь ласка підтвердіть свій обліковий запис roblox [here]({ $verify_url }) або натисніть на кнопку нижче щоб отримати доступ до решти сервера.
 discord-unknown-error = невідома
 verified-account-select-verified-as = Підтверджений як { $account }.
@@ -152,16 +150,16 @@ invite-argument-id = ідентифікатор_запрошення
 slash-invite-group-info-argument-invite-id = Ідентифікатор запрошення або посилання запрошення.
 monni-invite-info-title = Запрошення { $invite_id }
 monni-invite-info-expires-never = ніколи
-monni-invite-info-invite-creator = |**Творецб запрошення:** <@{ $inviter_id }>
-monni-invite-info-invite-uses = |**Використання:** { $uses }
-monni-invite-info-invite-expires-at = |**Закінчується:** { $expire_at }
+monni-invite-info-invite-creator = **Творецб запрошення:** <@{ $inviter_id }>
+monni-invite-info-invite-uses = **Використання:** { $uses }
+monni-invite-info-invite-expires-at = **Закінчується:** { $expire_at }
 discord_permission_view_creator_monetization_analytics = переглядати аналітика монетизація творця
 monni-log-expires-at-capital = Ніколи
 monni-log-invite-created-link = Запрошення створено: { $url }
-monni-log-invite-created-uses = |**Максимальні використання:** { $uses }
+monni-log-invite-created-uses = **Максимальні використання:** { $uses }
 monni-log-invite-created-title = Запрошення створено
 monni-invite-creator-id = Ідентифікатор творця: { $creator_id }
-monni-invite-info-invite-created-at = |**Створено в:** <t:{ $created_at }:d>
+monni-invite-info-invite-created-at = **Створено в:** <t:{ $created_at }:d>
 monni-log-invite-deleted-title = Запрошення видалено
 monni-log-invite-deleted-description = Запрошення видалено { $invite_url }
 discord-unknown-id = невідомий

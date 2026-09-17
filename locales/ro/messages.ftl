@@ -16,22 +16,20 @@ discord-unknown-invite = Necunoscut
 discord_permission_kick_members = dă afară membrii
 discord_permission_ban_members = interzice membrii
 discord-unknown-member = Necunoscut
-discord-whois-used-invite = |**Invitație folosită**: { $used }
-discord-whois-used-invite-creator = |**Creator invitație**: { $creator }
+discord-whois-used-invite = **Invitație folosită**: { $used }
+discord-whois-used-invite-creator = **Creator invitație**: { $creator }
 discord-whois-invite-category = Invită
-discord-whois-member-id = |**Serie**: { $member_id }
-discord-whois-bot-boolean =
-    |**Robot**: { $is_bot ->
+discord-whois-member-id = **Serie**: { $member_id }
+discord-whois-bot-boolean = **Robot**: { $is_bot ->
         [True] Adevărat
        *[False] Fals
     }
 discord-whois-misc-section = Diverse
-discord-whois-nitro-booster-bool =
-    |**Booster**: { $is_booster ->
+discord-whois-nitro-booster-bool = **Booster**: { $is_booster ->
         [True] Adevărat
        *[False] Fals
     }
-discord-whois-nitro-booster-since = |**Booster din**: { $booster_time }
+discord-whois-nitro-booster-since = **Booster din**: { $booster_time }
 discord-whois-category-nitro = Nitro
 fear-of-failure-tip = Monni nu se teme de eșec, deoarece este drumul către perfecțiune.
 slash-discord-get-info-member-argument = Membru Discord sau serie
@@ -119,8 +117,8 @@ data-caching-tip = Monni folosește date stocate in cache, ceea ce înseamnă c�
 discord_permission_manage_channels = gestionați canalele
 monni-log-expires-at-capital = Niciodată
 monni-log-invite-created-link = Invitație creată: { $url }
-monni-log-invite-created-uses = |**Utilizări maxime:** { $uses }
-monni-log-invite-created-expires = |**Expiră în:** { $expires }
+monni-log-invite-created-uses = **Utilizări maxime:** { $uses }
+monni-log-invite-created-expires = **Expiră în:** { $expires }
 monni-log-invite-created-title = Invitație creată
 monni-invite-creator-id = ID creator: { $creator_id }
 monni-log-invite-deleted-description = Invitație ștearsă { $invite_url }
@@ -179,13 +177,13 @@ invite-argument-id = id_invitație
 slash-invite-group-info-argument-invite-id = Identificatorul unei invitații sau linkul unei invitații.
 monni-invite-info-title = Invitație { $invite_id }
 monni-invite-info-expires-never = niciodată
-monni-invite-info-invite-id = |**ID invitație:** [{ $invite_id }](https://discord.gg/{ $invite_id })
-monni-invite-info-invite-creator = |**Creator invitație:** <@{ $inviter_id }>
-monni-invite-info-invite-uses = |**Utilizări:** { $uses }
-monni-invite-info-invite-expires-at = |**Expiră:** { $expire_at }
-monni-invite-info-channel-id = |**Canal invitație:** <#{ $invite_channel_id }>
+monni-invite-info-invite-id = **ID invitație:** [{ $invite_id }](https://discord.gg/{ $invite_id })
+monni-invite-info-invite-creator = **Creator invitație:** <@{ $inviter_id }>
+monni-invite-info-invite-uses = **Utilizări:** { $uses }
+monni-invite-info-invite-expires-at = **Expiră:** { $expire_at }
+monni-invite-info-channel-id = **Canal invitație:** <#{ $invite_channel_id }>
 slash-invite-group-sync-name = sincronizare
-monni-invite-info-invite-created-at = |**Creat la:** &lt;t:{ $created_at }:d>
+monni-invite-info-invite-created-at = **Creat la:** &lt;t:{ $created_at }:d>
 discord_permission_use_external_apps = folosirea_aplicațiilor_externe
 discord-tag-slash-get = obţine
 discord-tag-slash-group = etichetă

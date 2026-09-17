@@ -10,7 +10,7 @@ discord_permission_create_instant_invite = vytvořit instantní pozvánku
 discord-whois-badges = Odznaky
 discord-unknown-invite = Neznámý
 discord-unknown-member = Neznámý
-discord-whois-used-invite = |**Pozvánka použita**: { $used }
+discord-whois-used-invite = **Pozvánka použita**: { $used }
 discord-whois-invite-category = Pozvánka
 discord-whois-misc-section = Ostatní
 discord-whois-category-nitro = Nitro
@@ -21,18 +21,17 @@ discord_permission_mute_members = ztišit členy
 discord_permission_manage_channels = spravovat kanály
 discord_permission_create_public_threads = vytvořit veřejná vlákna
 discord_permission_manage_expressions = spravovat výrazy
-discord-whois-nitro-booster-bool =
-    |**Booster**: { $is_booster ->
+discord-whois-nitro-booster-bool = **Booster**: { $is_booster ->
         [True] True
        *[False] False
     }
 discord_permission_administrator = Administrátor
-discord-whois-used-invite-creator = |**Tvůrce Pozvánky**: { $creator }
-discord-whois-member-id = |**Id**: { $member_id }
-discord-whois-nitro-booster-since = |**Posilovač od**: { $booster_time }
+discord-whois-used-invite-creator = **Tvůrce Pozvánky**: { $creator }
+discord-whois-member-id = **Id**: { $member_id }
+discord-whois-nitro-booster-since = **Posilovač od**: { $booster_time }
 discord-whois-monni-badges = Monni Odznaky
 discord_permission_use_external_sounds = použít externí zvuky
-monni-log-invite-created-uses = |**Maximální využití:** { $uses }
+monni-log-invite-created-uses = **Maximální využití:** { $uses }
 discord_permission_stream = proud
 discord_permission_view_guild_insights = zobrazit náhled cechu
 discord_permission_embed_links = vložit odkazy
@@ -53,7 +52,7 @@ discord_permission_moderate_members = spravovat členy
 discord_permission_deafen_members = ohlušit členy
 data-caching-tip = Monni používá data caching, což znamená, že data nemusí být vždy aktuální!
 monni-log-invite-created-link = Pozvánka vytvořena: { $url }
-monni-log-invite-created-expires = |**Platnost vyprší za:** { $expires }
+monni-log-invite-created-expires = **Platnost vyprší za:** { $expires }
 discord_permission_use_soundboard = použít zvukovou desku
 discord_permission_manage_roles = spravovat role
 discord_permission_create_expressions = vytvářet výrazy
@@ -73,8 +72,7 @@ lightbulb-joke-tip = Kolik Monni je potřeba k výměně žárovky? Nula, Monni 
 why-not-petting-monni-tip = Proč nehladíš Monni?
 discord_permission_read_messages = číst zprávy
 discord_permission_read_message_history = číst historii zpráv
-discord-whois-bot-boolean =
-    |**Bot**: { $is_bot ->
+discord-whois-bot-boolean = **Bot**: { $is_bot ->
         [True] True
        *[False] False
     }
@@ -86,9 +84,9 @@ monni-invite-unknown-deleter = Neznámý smazat
 invite-argument-id = id_pozvánky
 monni-invite-info-title = Pozvat { $invite_id }
 monni-invite-info-expires-never = Vypršení platnosti pozvánky. Nikdy to nikdy nevyprší
-monni-invite-info-invite-id = |**ID pozvánky:** [{ $invite_id }](https://discord.gg/{ $invite_id })
-monni-invite-info-invite-creator = |**Tvůrce Pozvánky:** <@{ $inviter_id }>
-monni-invite-info-invite-uses = |**Použití:** { $uses }
+monni-invite-info-invite-id = **ID pozvánky:** [{ $invite_id }](https://discord.gg/{ $invite_id })
+monni-invite-info-invite-creator = **Tvůrce Pozvánky:** <@{ $inviter_id }>
+monni-invite-info-invite-uses = **Použití:** { $uses }
 discord-group-description = Rozpor souvisejících příkazů.
 slash-discord-whois = kdo_je
 slash-discord-avatar-description = Získat avatara uživatele.
@@ -133,8 +131,8 @@ smile-face-tip = :)
 slash-invite-group-sync-success = Pozvánky byly synchronizovány!
 slash-invite-group-info-name = info
 slash-invite-group-info-description = Načte informace o pozvánce.
-monni-invite-info-invite-expires-at = |**Platnost vyprší:** { $expire_at }
-monni-invite-info-channel-id = |**Kanál Pozvánky:** <#{ $invite_channel_id }>
+monni-invite-info-invite-expires-at = **Platnost vyprší:** { $expire_at }
+monni-invite-info-channel-id = **Kanál Pozvánky:** <#{ $invite_channel_id }>
 generic-app-command-error =
     Během provádění tohoto příkazu došlo k následující chybě:
     `{ $error }`
@@ -147,7 +145,7 @@ generic-view-error =
 slash-invite-group-sync-description = Synchronizuje všechna pozvání cechu s vlastními kopiemi pozvánek Monni.
 invite-argument-max-age = maximální_věk
 slash-invite-group-info-argument-invite-id = Identifikátor pozvánky nebo odkaz na pozvánku.
-monni-invite-info-invite-created-at = |**Vytvořeno v:** <t:{ $created_at }:d>
+monni-invite-info-invite-created-at = **Vytvořeno v:** <t:{ $created_at }:d>
 argument-reason = důvod
 discord_permission_send_messages_in_threads = posílat zprávy ve vláknech
 discord_permission_view_audit_log = zobrazit protokol auditu

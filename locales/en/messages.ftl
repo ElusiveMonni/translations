@@ -12,22 +12,20 @@ discord_permission_administrator = administrator
 discord-whois-badges = Badges
 discord-unknown-invite = Unknown
 discord-unknown-member = Unknown
-discord-whois-used-invite = |**Invite used**: { $used }
-discord-whois-used-invite-creator = |**Invite creator**: { $creator }
+discord-whois-used-invite = **Invite used**: { $used }
+discord-whois-used-invite-creator = **Invite creator**: { $creator }
 discord-whois-invite-category = Invite
-discord-whois-member-id = |**Id**: { $member_id }
-discord-whois-bot-boolean =
-    |**Bot**: { $is_bot ->
+discord-whois-member-id = **Id**: { $member_id }
+discord-whois-bot-boolean = **Bot**: { $is_bot ->
         [True] True
        *[False] False
     }
 discord-whois-misc-section = Miscellaneous
-discord-whois-nitro-booster-bool =
-    |**Booster**: { $is_booster ->
+discord-whois-nitro-booster-bool = **Booster**: { $is_booster ->
         [True] True
        *[False] False
     }
-discord-whois-nitro-booster-since = |**Booster since**: { $booster_time }
+discord-whois-nitro-booster-since = **Booster since**: { $booster_time }
 discord-whois-category-nitro = Nitro
 discord-whois-guild-badges = Guild badges
 discord-whois-monni-badges = Monni badges
@@ -147,17 +145,17 @@ invite-argument-id = invite_id
 slash-invite-group-info-argument-invite-id = Identifier of an invite or link of an invite.
 monni-invite-info-title = Invite { $invite_id }
 monni-invite-info-expires-never = never
-monni-invite-info-invite-id = |**Invite id:** [{ $invite_id }](https://discord.gg/{ $invite_id })
-monni-invite-info-invite-creator = |**Invite creator:** <@{ $inviter_id }>
-monni-invite-info-invite-uses = |**Uses:** { $uses }
-monni-invite-info-invite-created-at = |**Created at:** <t:{ $created_at }:d>
-monni-invite-info-invite-expires-at = |**Expires:** { $expire_at }
-monni-invite-info-channel-id = |**Invite channel:** <#{ $invite_channel_id }>
+monni-invite-info-invite-id = **Invite id:** [{ $invite_id }](https://discord.gg/{ $invite_id })
+monni-invite-info-invite-creator = **Invite creator:** <@{ $inviter_id }>
+monni-invite-info-invite-uses = **Uses:** { $uses }
+monni-invite-info-invite-created-at = **Created at:** <t:{ $created_at }:d>
+monni-invite-info-invite-expires-at = **Expires:** { $expire_at }
+monni-invite-info-channel-id = **Invite channel:** <#{ $invite_channel_id }>
 discord_permission_view_creator_monetization_analytics = view creator monetization analytics
 monni-log-expires-at-capital = Never
 monni-log-invite-created-link = Invite created: { $url }
-monni-log-invite-created-uses = |**Max uses:** { $uses }
-monni-log-invite-created-expires = |**Expires in:** { $expires }
+monni-log-invite-created-uses = **Max uses:** { $uses }
+monni-log-invite-created-expires = **Expires in:** { $expires }
 monni-log-invite-created-title = Invite created
 monni-invite-creator-id = Creator id: { $creator_id }
 monni-log-invite-deleted-title = Invite deleted

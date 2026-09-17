@@ -12,22 +12,20 @@ discord_permission_move_members = tagok mozgatása
 monni-missing-invite-permissions = Úgy tűnik, Monninak hiányoznak a meghívók kezeléséhez szükséges engedélyek. Kérjük, adja meg Monninak a szükséges engedélyeket az `/invite_monni`command segítségével. Ha többet szeretne megtudni, kérjük, látogasson el a [engedélyeket]({ $url }) oldalunkra.
 slash-invite-group-info-argument-invite-id = Meghívó azonosítója vagy meghívó hivatkozása.
 discord-unknown-member = Ismeretlen
-discord-whois-used-invite = |**Meghívó használt**: { $used }
-discord-whois-used-invite-creator = |**Meghívás alkotója: { $creator }
+discord-whois-used-invite = **Meghívó használt**: { $used }
+discord-whois-used-invite-creator = **Meghívás alkotója: { $creator }
 discord-whois-invite-category = Meghívás
-discord-whois-member-id = |**ID**: { $member_id }
-discord-whois-bot-boolean =
-    |**Robot**: { $is_bot ->
+discord-whois-member-id = **ID**: { $member_id }
+discord-whois-bot-boolean = **Robot**: { $is_bot ->
         [True] Igaz
        *[False] hamis
     }
 discord-whois-misc-section = Különféle
-discord-whois-nitro-booster-bool =
-    |**Booster**: { $is_booster ->
+discord-whois-nitro-booster-bool = **Booster**: { $is_booster ->
         [True] Igaz
        *[False] Hamis
     }
-discord-whois-nitro-booster-since = |**Booster azóta**: { $booster_time }
+discord-whois-nitro-booster-since = **Booster azóta**: { $booster_time }
 discord-whois-category-nitro = Nitró
 data-caching-tip = Monni adatgyorsítótárat használ, ami azt jelenti, hogy az adatok nem mindig naprakészek!
 discord-whois-guild-badges = Céhjelvények
@@ -47,8 +45,8 @@ generic-app-command-error =
     `{ $error }`
     Kérjük, jelentse ezt a hibát a [támogatási szerverünkön]({ $support_server_link }) a kóddal `{ $error_identifier }`!
 invite-argument-id = meghívás_id
-monni-invite-info-invite-expires-at = |**Lejárás:** { $expire_at }
-monni-log-invite-created-expires = |**Lejár:** { $expires }
+monni-invite-info-invite-expires-at = **Lejárás:** { $expire_at }
+monni-log-invite-created-expires = **Lejár:** { $expires }
 discord_permission_embed_links = linkek beágyazása
 discord_permission_create_public_threads = nyilvános szálak létrehozása
 discord_permission_read_message_history = üzenettörténet olvasása
@@ -142,15 +140,15 @@ invite-argument-max-uses = maximális_használatok
 invite-argument-max-age = maximális_kor
 monni-invite-info-title = Meghívás { $invite_id }
 monni-invite-info-expires-never = soha
-monni-invite-info-invite-id = |**Meghívás id:** [{ $invite_id }](https://discord.gg/{ $invite_id })
-monni-invite-info-invite-creator = |**Meghívás alkotója:** <@{ $inviter_id }>
-monni-invite-info-invite-uses = |**Használatok:** { $uses }
-monni-invite-info-invite-created-at = |**Létrehozott:** <t:{ $created_at }:d>
-monni-invite-info-channel-id = |**Meghívó csatorna:** <#{ $invite_channel_id }>
+monni-invite-info-invite-id = **Meghívás id:** [{ $invite_id }](https://discord.gg/{ $invite_id })
+monni-invite-info-invite-creator = **Meghívás alkotója:** <@{ $inviter_id }>
+monni-invite-info-invite-uses = **Használatok:** { $uses }
+monni-invite-info-invite-created-at = **Létrehozott:** <t:{ $created_at }:d>
+monni-invite-info-channel-id = **Meghívó csatorna:** <#{ $invite_channel_id }>
 discord_permission_view_creator_monetization_analytics = megtekintés_az_alkotó_bevételszerzési_elemzését
 monni-log-expires-at-capital = Soha
 monni-log-invite-created-link = Meghívó létrehozva: { $url }
-monni-log-invite-created-uses = |**Maximális használatok:** { $uses }
+monni-log-invite-created-uses = **Maximális használatok:** { $uses }
 monni-log-invite-created-title = Meghívás létrehozva
 monni-invite-creator-id = Alkotó id: { $creator_id }
 monni-log-invite-deleted-title = Meghívó törölve

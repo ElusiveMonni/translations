@@ -8,17 +8,16 @@ discord_permission_administrator = Administrator
 discord-whois-badges = Odznaki
 discord-unknown-invite = Nieznane
 discord-unknown-member = Nieznany
-discord-whois-used-invite = |**Wykorzystane zaproszenie**: { $used }
-discord-whois-used-invite-creator = |**Twórca**: { $creator }
+discord-whois-used-invite = **Wykorzystane zaproszenie**: { $used }
+discord-whois-used-invite-creator = **Twórca**: { $creator }
 discord-whois-invite-category = Zaproszenie
-discord-whois-member-id = |**Identyfikator**: { $member_id }
+discord-whois-member-id = **Identyfikator**: { $member_id }
 discord-whois-misc-section = Różne
-discord-whois-nitro-booster-bool =
-    |**Booster**: { $is_booster ->
+discord-whois-nitro-booster-bool = **Booster**: { $is_booster ->
         [True] Tak
        *[False] Nie
     }
-discord-whois-nitro-booster-since = |**Booster od**: { $booster_time }
+discord-whois-nitro-booster-since = **Booster od**: { $booster_time }
 discord-whois-category-nitro = Nitro
 discord-whois-monni-badges = Odznaki Monni
 slash-discord-whois = ktoto
@@ -70,8 +69,7 @@ hates-loud-sounds-tip = Monni nienawidzi głośnych dzwięków.
 working-hard-smart-tip = Pracowanie ciężko nie jest takie same jak pracowanie mądrze. Bądź jak Monni i pracuj mądrze.
 remark-of-monni-liking-being-petted-tip = Monni lubi być głaskany.
 lore-of-monni-home-tip = W dalekich gwiazdach, Monni się narodził.
-discord-whois-bot-boolean =
-    |**Bot**: { $is_bot ->
+discord-whois-bot-boolean = **Bot**: { $is_bot ->
         [True] Tak
        *[False] Nie
     }
@@ -89,7 +87,7 @@ let-the-prey-think-they-are-safe-tip = Pozwól pasożytom pomyśleć, że są be
 monni-api-down-error = Monni API jest obecnie niedostępne.
 prior-habitat-tip = Poprzednie środowisko Monni było zielone i niebieskie, rojące się od zanurzonej w przejrzystych wodach fauny.
 slash-invite-group-create-arg-reason = Powód zaproszenia
-monni-invite-info-invite-id = |**Identyfikator zaproszenia:** [{ $invite_id }](https://discord.gg/{ $invite_id })
+monni-invite-info-invite-id = **Identyfikator zaproszenia:** [{ $invite_id }](https://discord.gg/{ $invite_id })
 discord_permission_view_creator_monetization_analytics = zobacz twórcy monetyzacyjną analitykę
 simpukka-learning-tip = Uczenie się Simpukki jest drogą, aby mieć więcej kontroli nad twoim serwerem. Mimo wszytko jesteś liderem.
 verified_account_app_command_name = zweryfikowane_konto
@@ -168,13 +166,13 @@ invite-argument-id = identyfikator_zaproszenia
 slash-invite-group-info-argument-invite-id = Identyfikator zaproszenia lub link zaproszenia.
 monni-invite-info-title = Zaproszenie { $invite_id }
 monni-invite-info-expires-never = nigdy
-monni-invite-info-invite-creator = |**Twórca zaproszenia:** <@{ $inviter_id }>
-monni-invite-info-invite-uses = |**Użyto:** { $uses }
-monni-invite-info-invite-expires-at = |**Wygasa:** { $expire_at }
-monni-invite-info-channel-id = |**Kanał zaproszenia:** <#{ $invite_channel_id }>
+monni-invite-info-invite-creator = **Twórca zaproszenia:** <@{ $inviter_id }>
+monni-invite-info-invite-uses = **Użyto:** { $uses }
+monni-invite-info-invite-expires-at = **Wygasa:** { $expire_at }
+monni-invite-info-channel-id = **Kanał zaproszenia:** <#{ $invite_channel_id }>
 monni-log-expires-at-capital = Nigdy
 monni-log-invite-created-link = Zaproszenie stworzono: { $url }
-monni-log-invite-created-uses = |**Maksymalne użycia:** { $uses }
+monni-log-invite-created-uses = **Maksymalne użycia:** { $uses }
 monni-invite-creator-id = Identyfikator twórcy: { $creator_id }
 monni-log-invite-deleted-description = Zaproszenie usunięto { $invite_url }
 discord-unknown-id = nieznany
@@ -183,8 +181,8 @@ slash-invite-group-create-arg-max-age = Maksymalny czas zaproszenia (Domyślnie 
 verified_account_app_command_description = Zdobądź informacje o koncie, którym użytkownik zweryfikował siebie.
 monni-log-invite-deleted-title = Zaproszenie zostało usunięte
 monni-log-invite-created-title = Zaproszenie zostało stworzone
-monni-log-invite-created-expires = |**Wygasa za:** { $expires }
-monni-invite-info-invite-created-at = |**Stworzono:** <t:{ $created_at }:d>
+monni-log-invite-created-expires = **Wygasa za:** { $expires }
+monni-invite-info-invite-created-at = **Stworzono:** <t:{ $created_at }:d>
 verify_app_command_name = zweryfikuj
 verify_app_command_description = Zweryfikuj konto z Monni.
 verify_app_command_verify_title = Zweryfikuj konto
