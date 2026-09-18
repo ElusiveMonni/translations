@@ -24,6 +24,6 @@ discord-whois-nitro-booster-bool = **Money bag**: { $is_booster ->
 discord-whois-nitro-booster-since = **Money bag after**: { $booster_time }
 discord-whois-category-nitro = Nitrosyl
 slash-discord-whois = outsider_search
-argument-member = Fellow
+argument-member = fellow
 argument-reason = rationality
 slash-argument-member-describe = Disaccord fellow as an alternative distinctor.
