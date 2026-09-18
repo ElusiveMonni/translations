@@ -14,8 +14,6 @@ discord-whois-used-invite = **Pozvánka použita**: { $used }
 discord-whois-invite-category = Pozvánka
 discord-whois-misc-section = Ostatní
 discord-whois-category-nitro = Nitro
-discord-whois-guild-badges = Odznaky na serveru
-slash-discord-get-info = najít_informace
 argument-member = člen
 discord_permission_mute_members = ztišit členy
 discord_permission_manage_channels = spravovat kanály
@@ -29,7 +27,6 @@ discord_permission_administrator = Administrátor
 discord-whois-used-invite-creator = **Tvůrce Pozvánky**: { $creator }
 discord-whois-member-id = **Id**: { $member_id }
 discord-whois-nitro-booster-since = **Posilovač od**: { $booster_time }
-discord-whois-monni-badges = Monni Odznaky
 discord_permission_use_external_sounds = použít externí zvuky
 monni-log-invite-created-uses = **Maximální využití:** { $uses }
 discord_permission_stream = proud
@@ -64,7 +61,6 @@ secret-agent-monni-tip = Monni je jako tajnej agent pro tvůj server. Uchová v�
 discord_permission_send_voice_messages = posílat hlasové zprávy
 test = test
 monni-api-timeout = Vypršel časový limit odpovědi serveru API. Spusťte příkaz znovu.
-slash-invite-group-delete-description = Smazat pozvánku.
 discord_permission_view_creator_monetization_analytics = zobrazit analýzu zpeněžení tvůrců
 monni-log-expires-at-capital = Nikdy
 team-work-power-tip = V týmové práci je síla. Jen se podívejte na simpukka a Monni.
@@ -79,7 +75,6 @@ discord-whois-bot-boolean = **Bot**: { $is_bot ->
 monni-api-down-error = Monni API je momentálně mimo provoz.
 let-the-prey-think-they-are-safe-tip = Nechte parazity, aby si mysleli, že jsou v bezpečí, a pak se stanou snadnou kořistí.
 monni-log-invite-deleted-title = Pozvánka byla smazána
-discord-unknown-id = neznámý
 monni-invite-unknown-deleter = Neznámý smazat
 invite-argument-id = id_pozvánky
 monni-invite-info-title = Pozvat { $invite_id }
@@ -90,7 +85,6 @@ monni-invite-info-invite-uses = **Použití:** { $uses }
 discord-group-description = Rozpor souvisejících příkazů.
 slash-discord-whois = kdo_je
 slash-discord-avatar-description = Získat avatara uživatele.
-command-doesnt-exist-error = Zdá se, že příkaz neexistuje. Možná to brzy zkuste znovu?
 slash-invite-group-name = pozvat
 slash-invite-group-create-name = vytvořit
 slash-invite-group-create-description = Vytvořit novou pozvánku.
@@ -178,33 +172,21 @@ discord-slash-reminder-create-describe-description = Popis upomínky.
 discord-slash-reminder-create-describe-repeating = Má se připomenutí neustále připomínat, dokud nebude zrušeno?
 discord-slash-reminder-create-argument-about = o
 verify_app_command_verification_disabled = Tento server má ověřování vyptuné.
-verify_app_command_verify_title = Ověřte účet
 verify_app_command_verify_embed_description = Ověřte prosím svůj účet [zde]({ $verify_url }). Případně ho můžete ověřit stisknutím tlačítka níže.
 verify_app_command_verify_link_button = Ověřit
-verify_app_command_verify_roblox_embed_description = Ověřte prosím svůj účet roblox [zde]({ $verify_url }) nebo stiskněte tlačítko ověření níže, abyste získali přístup ke zbytku serveru.
-account_manually_verified = Účet byl ručně ověřen!
-verified-account-select = Vyberte účet, který chcete ověřit
-discord-unknown-account = Neznámý
-verified-account-select-verified-as = Ověřeno jako { $account }.
 discord-slash-reminder-create-argument-description = popis
 discord-slash-reminder-create-argument-time = čas
 unknown-invite-info = Zdá se, že Monni nemůže najít požadovanou pozvánku. Možná to zkuste znovu?
 discord-slash-reminder-create-argument-repeating = opakujicí se
-discord-reminder-create-message-over-premium-limit = Můžete mít maximálně { $max_reminders } připomenutí. Pokud potřebujete, aby byl limit vyšší, požádejte o něj na našem serveru podpory.
 reminder-id-embed-footer = ID připomenutí: { $reminder_id }
 discord-ephemeral-argument = schovaný
 discord-tag-get-argument-copy-mode = režim_kopírování
 discord-unknown-error = neznámý
 discord-tag-slash-get = získat
-discord-tag-slash-group = štítek
-discord-tag-slash-group-description = Příkazy související se značkami.
-discord-tag-slash-create = vytvořit
-discord-tag-slash-create-description = Vytvořte novou značku. Limitem je pouze nebe.
 discord-slash-tag-create-describe-name = Název značky
 discord-slash-tag-create-describe-content = Obsah značky
 discord-slash-tag-create-argument-name = jméno
 discord-slash-tag-create-argument-content = obsah
-discord-tag-create-message-over-premium-limit = Můžete mít maximálně { $max_tags } značek. Pokud potřebujete, aby byl limit vyšší, požádejte o něj na našem serveru podpory.
 get-user-premium = Získejte uživatelskou premii!
 join-support-server = Připojte se k serveru podpory
 discord-tag-create-message-success = Nový štítek vytvořen
@@ -241,7 +223,6 @@ discord-reminder-manage-message-select = Vyberte připomenutí, které chcete up
 discord-slash-reminder-manage = spravovat
 verified_account_app_command_name = ověřený_účet
 verified_account_app_command_description = Získejte informace o účtu,s kterým se uživatel ověřil.
-verify_app_command_verify_roblox_dropdown_embed_description = Ověřte prosím svůj roblox účet [zde]({ $verify_url }) nebo vyberte jeden z účtů, které jste ověřili, z nabídky níže. Případně to můžete ověřit stisknutím tlačítka níže.
 verify-welcome_dm-title = { $name } je chráněn ověřovacím robotem Monni.
 welcome-dm-verify-link-button = Ověřte
 verify-welcome_dm-description = Ověřte svůj účet, abyste získali přístup ke zbytku serveru. Níže vyberte ověřený účet nebo ověřte nový **[zde]({ $verify_url })**. Případně můžete stisknout tlačítko ověření níže a ověřit nový účet.
@@ -280,30 +261,9 @@ verify_app_command_verify_embed_title = Verifikace účtu
 discord-slash-tag-group = štítek
 discord-slash-tag-group-description = Příkazy související s štítkami.
 discord-slash-tag-create = vytvořit
-text-command-forum-post-missing-channel = Zadejte ID kanálu fóra po členovi nebo použijte příkaz v kanálu fórumu.
-text-command-forum-post-embed-title = Historie póstu forumu
-text-command-forum-post-embed-description = Člen vytvořil `{ $posts }` příspěvky v <#{ $channel }>.
 prefix-error-no-private-messages = Monni vám odmítá dovolit používat tento příkaz mimo servery.
-text-command-forum-post-sync-user-no-posts = { $user } nemá žádné příspěvky na fóru v <#{ $channel }>"
-text-command-forum-post-sync-no-posts = <#{ $channel }> nemá žádné příspěvky.
-text-command-forum-post-sync-done = Synchronizace příspěvků na fóru dokončena.
-text-command-forum-post-sync-start = Získávání příspěvků. To může chvíli trvat.
 discord-reminder-manage-message-no-reminders = Zdá se, že nemáte žádné připomenutí. Můžete si jej vytvořit pomocí /reminder create.
 help-embed-dashboard = Dashboard
-text-command-forum-post-sync-missing-channel = Uveďte prosím ID kanálu fóra jako argument nebo použijte příkaz v kanálu fóra.
-text-command-forum-post-sync-success-user =
-    Synchronizace příspěvků na fóru pro { $user } v <#{ $channel }>. Člen má { $post_count ->
-        [one] `{ $post_count }` příspěvek
-       *[other] `{ $post_count }` příspěvky
-    }.
-text-command-forum-post-sync-success-all =
-    Syncing forums posts in <#{ $channel }> for { $member_count ->
-        [one] `{ $member_count }` member
-       *[other] `{ $member_count }` members
-    }. Estimated time { $seconds ->
-        [one] `{ $seconds }` second
-       *[other] `{ $seconds }` seconds
-    }.
 discord-max-concurrency-error =
     Hold on! Monni is only a fish, they can only do so much. Monni only allows { $number ->
         [one] { "*" }*{ $number }** concurrent command

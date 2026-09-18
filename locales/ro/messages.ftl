@@ -1,6 +1,3 @@
-discord-whois-guild-badges = Insignele Guild-ului
-discord-whois-monni-badges = Insignele Monni
-slash-discord-get-info = obține_informații
 argument-member = membru
 test = test
 -brand-name = Monni
@@ -32,8 +29,6 @@ discord-whois-nitro-booster-bool = **Booster**: { $is_booster ->
 discord-whois-nitro-booster-since = **Booster din**: { $booster_time }
 discord-whois-category-nitro = Nitro
 fear-of-failure-tip = Monni nu se teme de eșec, deoarece este drumul către perfecțiune.
-slash-discord-get-info-member-argument = Membru Discord sau serie
-slash-discord-get-info-description = Obține informații despre un cont discord.
 discord_permission_create_public_threads = creează fire publice
 remark-of-monni-liking-being-petted-tip = Lui Monni îi place să fie mângâiat.
 simpukka-learning-tip = Învățarea Simpukka este drumul către un control mai mare asupra serverului tău. La urma urmei, tu ești liderul.
@@ -122,7 +117,6 @@ monni-log-invite-created-expires = **Expiră în:** { $expires }
 monni-log-invite-created-title = Invitație creată
 monni-invite-creator-id = ID creator: { $creator_id }
 monni-log-invite-deleted-description = Invitație ștearsă { $invite_url }
-discord-unknown-id = necunoscut
 monni-invite-unknown-deleter = Ștergător necunoscut
 verified_account_app_command_name = cont_verificat
 verified_account_app_command_description = Obține informații despre contul cu care utilizatorul s-a verificat.
@@ -130,14 +124,8 @@ verified_account_context_menu_name = Cont verificat
 verify_app_command_name = verifică
 verify_app_command_description = Verifică un cont cu Monni.
 verify_app_command_verification_disabled = Acest server are verificarea dezactivată.
-verify_app_command_verify_title = Verifică cont
-verify_app_command_verify_roblox_dropdown_embed_description = Vă rugăm să verificați contul dvs. de Roblox [aici]({ $verify_url }) sau selectați unul dintre conturile pe care le-ați verificat din meniul de mai jos. Alternativ, puteți verifica apăsând butonul de mai jos.
 verify_app_command_verify_embed_description = Vă rugăm să verificați contul dvs. [aici]({ $verify_url }). Alternativ, puteți verifica apăsând butonul de mai jos.
 verify_app_command_verify_link_button = Verifică
-account_manually_verified = Contul a fost verificat manual!
-verified-account-select = Selectați contul cu care să verificați
-discord-unknown-account = Necunoscut
-verified-account-select-verified-as = Verificat ca { $account }.
 welcome-dm-verify-link-button = Verifică
 verify-welcome_dm-title = { $name } este protejat de botul de verificare Monni.
 discord_permission_view_creator_monetization_analytics = vizualizare_analize_monetizare_creator
@@ -150,12 +138,10 @@ monni-log-invite-deleted-title = Invitație ștearsă
 slash-argument-member-describe = Membru sau id-ul Discord.
 slash-discord-avatar = avatar
 slash-discord-avatar-description = Obțineți avatarul un utilizator.
-command-doesnt-exist-error = Comanda nu pare să existe. Poate încercați din now în curănd?
 slash-invite-group-name = invitație
 slash-invite-group-description = Comenzile legate de urmărire de invitați.
 slash-invite-group-create-name = crează
 slash-invite-group-create-description = Crează o invitație nouă.
-verify_app_command_verify_roblox_embed_description = Vă rugăm să verificați contul dvs. de Roblox [aici]({ $verify_url }) sau apăsați butonul de verificare de mai jos pentru a obține acces la restul serverului.
 argument-reason = motiv
 slash-invite-group-create-arg-reason = Motivul pentru invitați
 slash-invite-group-create-arg-max-uses = Numărul maxim de utilizări ale invitațieii (implicit infinit)
@@ -163,7 +149,6 @@ slash-invite-group-create-arg-max-age = Vărsta maximă a invitației (implicit 
 monni-missing-invite-permissions = Se pare că Monni nu are permisiunile necesare pentru a gestiona invitațiile. Vă rugăm să oferiți lui Monni permisiunile necesare cu comanda /invite_monni. Pentru a afla mai multe, vizitați pagina noastră despre [permisiuni]({ $url }).
 slash-invite-group-create-invite-created = Invitația **{ $invite_id }** a fost creată! https://discord.gg/{ $invite_id }
 slash-invite-group-delete-name = șterge
-slash-invite-group-delete-description = Șterge o invitație.
 slash-invite-group-delete-arg-invite-id = Identificatorul unei invitații sau linkul unei invitații.
 slash-invite-group-delete-invite-deleted = Invitația a fost ștearsă!
 slash-invite-group-invite-doesnt-exists = Invitația furnizată nu există.
@@ -186,10 +171,6 @@ slash-invite-group-sync-name = sincronizare
 monni-invite-info-invite-created-at = **Creat la:** &lt;t:{ $created_at }:d>
 discord_permission_use_external_apps = folosirea_aplicațiilor_externe
 discord-tag-slash-get = obţine
-discord-tag-slash-group = etichetă
-discord-tag-slash-create = crează
-discord-tag-slash-create-description = Creați o nouă etichetă. Numai cerul este limita.
-discord-tag-slash-group-description = Comenzi aferente etichetelor.
 discord-slash-tag-create-describe-name = Numele etichetei
 discord-unknown-error = necunoscut
 discord-tag-slash-get-description = Obțineți etichetă după id, nume sau o parte a conținutului.
@@ -213,7 +194,6 @@ number-select-modal-item = element
 number-select-modal-title = Selectează { $item }
 number-select-modal-field-label = Scrieți numărul { $item } pentru al alege
 number-select-modal-field-placeholder = Scrieți numărul { $item } aici...
-discord-tag-create-message-over-premium-limit = Puteți avea doar până la { $max_tags } etichete. Dacă aveți nevoie ca limita să fie mai mare vă rugăm să o solicitați la serverul nostru de asistență.
 discord-tag-create-message-over-freemium-limit = Puteți avea doar până la { $max_tags } etichete. Cu premium puteți crește această limită la { $max_premium_tags }.
 get-user-premium = Cumpărați premium pentru utilizatori!
 join-support-server = Alăturați-vă serverului de asistență
@@ -267,23 +247,14 @@ help-embed-support-server = Server de asistență
 help-embed-invite-link = Link de invitație
 slash-discord-invite-monni = invită_monni
 slash-discord-invite-monni-description = Invită-l pe Monni. Nu uita să-l ții fericit!
-text-command-forum-post-embed-title = Istoricul postărilor pe forum
 prefix-error-no-private-messages = Monni refuză să te lase să folosești această comandă în afara serverelor.
-text-command-forum-post-sync-user-no-posts = { $user } nu are postări pe forum în <#{ $channel }>
-text-command-forum-post-sync-no-posts = <#{ $channel }> nu are postări.
-text-command-forum-post-sync-done = Sincronizarea postărilor de pe forum a fost finalizată.
-text-command-forum-post-sync-start = Se primesc postări. Acest lucru poate dura ceva timp.
 slash-discord-dashboard = tablou de bord
 slash-discord-dashboard-embed-title = Tabloul de bord Monni
 slash-discord-invite-monni-embed-title = Invită-l pe Monni
 slash-discord-invite-monni-embed-footer = Adoptă-ți propriul Monni astăzi!
-text-command-forum-post-leaderboard-no-posts = Nu există postări în forumul selectat. Dacă această opțiune este falsă, vă rugăm să utilizați `forum_posts_sync`.
-text-command-forum-post-leaderboard-embed-title = Numărul de postări pentru <#{ $forum_id }>
 discord-slash-tag-get-describe-tag = Etichetă de trimis.
 discord-slash-tag-get-describe-hidden = Trimite acest mesaj în privat, astfel încât să fie vizibil doar pentru tine.
 discord-slash-tag-get-describe-copy-mode = Trimiteți acest mesaj în modul de copiere pentru a-l putea copia și lipi ulterior cu ușurință.
-discord-reminder-create-message-over-premium-limit = Puteți avea doar maximum { $max_reminders } mementouri. Dacă doriți ca limita să fie mai mare, vă rugăm să solicitați acest lucru la serverul nostru de asistență.
-text-command-forum-post-embed-description = Membrul a creat postări cu textul `{ $posts }` în <#{ $channel }>.
 slash-discord-dashboard-embed-description = Poți accesa tabloul de bord [aici]({ $dashboard_url }) și schimbă comportamentul lui Monni.
 discord-slash-cooldown-error =
     Stai puțin! Monni are nevoie de un moment să recupereze. Încearcă din nou peste **{ $seconds }** secunde. Monni te roagă să folosești această comandă doar { $rate ->
@@ -297,23 +268,8 @@ discord-slash-reminder-create-description = Creează un nou memento. Nu-ți face
 reminder-remind-at-field = Amintiți la
 reminder-manage-delete-reminder-button = Ștergeți mementoul
 discord-send-reminder-text = I-ai cerut lui Monni să-ți reamintească la următorul [channel]({ $jump_url }). Această reamintire a fost creată la { $time } ({ $relative_time })
-text-command-forum-post-missing-channel = Vă rugăm să furnizați ID-ul canalului de forum după membru sau să utilizați comanda într-un canal de forum.
 slash-discord-dashboard-description = Primește un link către tabloul de bord al breslei
 reminder-manage-enable-repeating-button = Transformă în memento repetat
-text-command-forum-post-sync-success-user =
-    Se sincronizează postările de pe forum pentru { $user } în <#{ $channel }>. Membrul are { $post_count ->
-        [o] postare `{ $post_count }`
-       *[alte] postări `{ $post_count }`
-    }.
-text-command-forum-post-sync-missing-channel = Vă rugăm să furnizați ID-ul canalului de forum ca argument sau să utilizați comanda într-un canal de forum.
-text-command-forum-post-sync-success-all =
-    Se sincronizează postările de pe forumuri în <#{ $channel }> pentru { $member_count ->
-        [one] membru `{ $member_count }`
-       *[other] membri `{ $member_count }`
-    }. Timp estimat { $seconds ->
-        [one] secundă `{ $seconds }`
-       *[other] secunde `{ $seconds }`
-    }.
 discord-max-concurrency-error =
     Hold on! Monni is only a fish, they can only do so much. Monni only allows { $number ->
         [one] { "*" }*{ $number }** concurrent command

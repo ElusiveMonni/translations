@@ -27,8 +27,6 @@ discord-whois-nitro-booster-bool = **Booster**: { $is_booster ->
     }
 discord-whois-nitro-booster-since = **Booster since**: { $booster_time }
 discord-whois-category-nitro = Nitro
-discord-whois-guild-badges = Guild badges
-discord-whois-monni-badges = Monni badges
 slash-discord-whois = whois
 argument-member = member
 argument-reason = reason
@@ -119,7 +117,6 @@ generic-view-error =
 discord-group-description = Discord related commands.
 slash-discord-avatar = avatar
 slash-discord-avatar-description = Get user avatar.
-command-doesnt-exist-error = Command doesn't seem to exist. Maybe try again soon?
 slash-invite-group-name = invite
 slash-invite-group-description = Invite tracking related commands.
 slash-invite-group-create-name = create
@@ -130,7 +127,6 @@ slash-invite-group-create-arg-max-age = Max invite age (default infinite)
 monni-missing-invite-permissions = It seems like Monni is missing permissions required for managing invites. Please give Monni the required permissions with `/invite_monni`command. To learn more, please visit our page on [permissions]({ $url }).
 slash-invite-group-create-invite-created = Invite **{ $invite_id }** created! https://discord.gg/{ $invite_id }
 slash-invite-group-delete-name = delete
-slash-invite-group-delete-description = Delete an invite.
 slash-invite-group-delete-arg-invite-id = Identifier of an invite or link of an invite.
 slash-invite-group-delete-invite-deleted = Invite has been deleted!
 slash-invite-group-invite-doesnt-exists = Provided invite doesn't exist.
@@ -160,7 +156,6 @@ monni-log-invite-created-title = Invite created
 monni-invite-creator-id = Creator id: { $creator_id }
 monni-log-invite-deleted-title = Invite deleted
 monni-log-invite-deleted-description = Invite deleted { $invite_url }
-discord-unknown-id = unknown
 monni-invite-unknown-deleter = Unknown deleter
 verified_account_app_command_name = verified_account
 verified_account_app_command_description = Get info of the account user has verified with.
@@ -169,7 +164,6 @@ verify_app_command_name = verify
 verify_app_command_description = Verify an account with Monni.
 verify_app_command_verification_disabled = This server has verification disabled.
 verify_app_command_verify_embed_title = Verify account
-verify_app_command_verify_roblox_dropdown_embed_description = Please verify your roblox account [here]({ $verify_url }) or select one of the accounts you have verified from dropdown below. Alternatively you can verify by pressing the button below.
 verify_app_command_verify_embed_description = Please verify your account [here]({ $verify_url }). Alternatively you can verify by pressing the button below.
 verify_app_command_already_verified = You are already verified in this server. Your roles have been re-applied.
 verify_app_command_already_verified_manage = You can change or unlink your account there.
@@ -180,12 +174,7 @@ verification_embed_title = Verification
 verification_embed_description = Welcome to { $guild }! This server is protected with Monni verification. Get access by verifying [here]({ $verify_url }), or press the button below.
 verification_embed_button = Verify
 verify_app_command_verify_link_button = Verify
-verify_app_command_verify_roblox_embed_description = Please verify your roblox account [here]({ $verify_url }) or press the verify button below to get access to rest of the server.
-account_manually_verified = Account has been manually verified!
-verified-account-select = Select account to verify as
-discord-unknown-account = Unknown
 discord-unknown-error = unknown
-verified-account-select-verified-as = Verified as { $account }.
 verify-welcome_dm-title = { $name } is protected by Monni verification bot.
 verify-welcome_dm-description = Verify your account to get access to the rest of the server. Press the button below, or open **[the verification page]({ $verify_url })**. If you have linked an account to Monni before, you can pick it there in one click.
 welcome-dm-verify-link-button = Verify
@@ -201,7 +190,6 @@ discord-slash-tag-create-describe-name = Name of the tag
 discord-slash-tag-create-describe-content = Content of the tag
 discord-slash-tag-create-argument-name = name
 discord-slash-tag-create-argument-content = content
-discord-tag-create-message-over-premium-limit = You can have only up to { $max_tags } tags. If you need the limit to be higher please request it at our support server.
 discord-tag-create-message-over-freemium-limit = You can have only up to { $max_tags } tags. With premium you can increase this limit to { $max_premium_tags }.
 get-user-premium = Get user premium!
 join-support-server = Join support server
@@ -258,7 +246,6 @@ discord-slash-reminder-create-argument-description = description
 discord-slash-reminder-create-argument-time = time
 discord-slash-reminder-create-argument-repeating = repeating
 discord-reminder-create-message-over-freemium-limit = You can have only up to { $max_reminders } reminders. With premium you can increase this limit to { $max_premium_reminders }.
-discord-reminder-create-message-over-premium-limit = You can have only up to { $max_reminders } reminders. If you need the limit to be higher please request it at our support server.
 reminder-id-embed-footer = Reminder id: { $reminder_id }
 reminder-remind-at-field = Remind at
 discord-reminder-create-message-created = New reminder created
@@ -284,27 +271,7 @@ help-embed-support-server = Support Server
 help-embed-invite-link = Invite link
 slash-discord-invite-monni = invite_monni
 slash-discord-invite-monni-description = Invite Monni. Remember to keep him happy!
-text-command-forum-post-missing-channel = Please provide forum channel id after member or use the command in a forum channel.
-text-command-forum-post-embed-title = Forum post history
-text-command-forum-post-embed-description = Member has created `{ $posts }` posts in <#{ $channel }>.
 prefix-error-no-private-messages = Monni refuses to let you use this command outside of servers.
-text-command-forum-post-sync-missing-channel = Please provide forum channel id as an argument or use the command in a forum channel.
-text-command-forum-post-sync-user-no-posts = { $user } has no forum posts in <#{ $channel }>"
-text-command-forum-post-sync-no-posts = <#{ $channel }> has no posts.
-text-command-forum-post-sync-success-user =
-    Syncing forum posts for { $user } in <#{ $channel }>. Member has { $post_count ->
-        [one] `{ $post_count }` post
-       *[other] `{ $post_count }` posts
-    }.
-text-command-forum-post-sync-success-all =
-    Syncing forums posts in <#{ $channel }> for { $member_count ->
-        [one] `{ $member_count }` member
-       *[other] `{ $member_count }` members
-    }. Estimated time { $seconds ->
-        [one] `{ $seconds }` second
-       *[other] `{ $seconds }` seconds
-    }.
-text-command-forum-post-sync-done = Syncing forum posts done.
 discord-max-concurrency-error =
     Hold on! Monni is only a fish, they can only do so much. Monni only allows { $number ->
         [one] { "*" }*{ $number }** concurrent command
@@ -313,15 +280,12 @@ discord-max-concurrency-error =
         [one] command
        *[other] commands
     } finish before retrying!
-text-command-forum-post-sync-start = Getting posts. This may take a while.
 slash-discord-dashboard-description = Gets a link to guild's dashboard
 slash-discord-dashboard = dashboard
 slash-discord-dashboard-embed-title = Monni dashboard
 slash-discord-dashboard-embed-description = You can go to dashboard [here]({ $dashboard_url }) and change how Monni behaves.
 slash-discord-invite-monni-embed-title = Invite Monni
 slash-discord-invite-monni-embed-footer = Adopt your own Monni today!
-text-command-forum-post-leaderboard-no-posts = There are no posts in the selected forum. If this is false please use `forum_posts_sync`.
-text-command-forum-post-leaderboard-embed-title = Post counts for <#{ $forum_id }>
 discord_permission_set_voice_channel_status = set_voice_channel_status
 discord_permission_bypass_slowmode = bypass_slowmode
 discord_permission_pin_messages = pin_messages

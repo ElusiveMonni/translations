@@ -23,8 +23,6 @@ discord-whois-nitro-booster-bool = **Money bag**: { $is_booster ->
     }
 discord-whois-nitro-booster-since = **Money bag after**: { $booster_time }
 discord-whois-category-nitro = Nitrosyl
-discord-whois-guild-badges = Society marks
-discord-whois-monni-badges = Catfish marks
 slash-discord-whois = outsider_search
 argument-member = Fellow
 argument-reason = rationality
