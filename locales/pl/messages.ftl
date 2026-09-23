@@ -101,7 +101,7 @@ tag-manage-edit-modal-tag-name-label = Imię etykiety
 slash-invite-group-create-invite-created = Zaproszenie **{ $invite_id }** utworzono! https://discord.gg/{ $invite_id }
 monni-missing-invite-permissions = Wydaje się, że Monni brakuje uprawnień, które są potrzebne w zarządzaniu zaproszeń. Proszę dać Monni wymagane uprawnienia, używając polecenia `/invite_monni`. Aby dowiedzieć się więcej, proszę zobaczyć naszą stronę o [uprawnieniach]({ $url }).
 discord-tag-create-message-over-freemium-limit = Możesz tylko mieć { $max_tags } etykiet. Z premium możesz zwiększyć ten limit do { $max_premium_tags }.
-discord-tag-manage-message-no-tags = Wydaje się, że nie masz żadnych etykiet, Możesz stworzyć jedną za pomocą /create tag.
+discord-tag-manage-message-no-tags = Wydaje się, że nie masz żadnych etykiet, Możesz stworzyć jedną za pomocą /tag create.
 discord-slash-tag-get-describe-hidden = Wyślij tę wiadomość prywatne, żeby została widzialna tylko dla ciebie.
 discord-slash-tag-get-describe-copy-mode = Wyślij tę wiadomość w trybie kopiowania, żeby było ci łatwej skopiować później i wkleić. Niezbędne, kiedy serwer ma wyłączone polecenia użytkownika.
 verify-welcome_dm-description = Proszę zweryfikować swoje konto, aby dostać dostęp do reszty serwera. Proszę wybrać zweryfikowane konto lub zweryfikować nowe **[tutaj]({ $verify_url })**. Alternatywnie możesz zweryfikować siebie za pomocą przycisku poniżej.
@@ -114,7 +114,6 @@ discord-slash-cooldown-error =
        *[other] { "*" }*{ $per }** sekund
     }!
 slash-invite-group-create-description = Stwórz nowe zaproszenie.
-test = test
 discord_permission_use_embedded_activities = Używanie aktywności
 smile-face-tip = :)
 secret-agent-monni-tip = Monni jest jak tajny agent dla twojego serwera. Dba, żeby wszytko było bezpieczne i prywatne, nieważne co.

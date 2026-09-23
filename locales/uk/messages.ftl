@@ -54,7 +54,6 @@ discord_permission_manage_messages = керувати повідомленням
 discord_permission_manage_expressions = керувати вираженнями
 discord_permission_move_members = переміщувати користувачів
 discord_permission_manage_channels = керувати каналами
-test = test
 discord-whois-no-roles = Користувач не має ролей.
 discord_permission_ban_members = заблокувати користувача
 discord-whois-used-invite = **Запрошення використано**: { $used }

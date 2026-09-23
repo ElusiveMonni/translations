@@ -1,4 +1,3 @@
-test = test
 -brand-name = Monni
 discord-whois-no-roles = User has no roles.
 discord-whois-roles-field-title = Roles ({ $count })
@@ -78,18 +77,18 @@ discord_permission_manage_channels = manage channels
 data-caching-tip = Monni uses data caching, which means data may not always be up to date!
 privacy-joke-tip = Privacy my beloved, what happened to you?
 hates-loud-sounds-tip = Monni hates loud sounds.
-simpukka-helps-monni-tip = Simpukka helps Monni do things he otherwise couldn't.
+simpukka-helps-monni-tip = Simpukka helps Monni do things they otherwise couldn't.
 fear-of-failure-tip = Monni doesn't fear failure, as it's the road to perfection.
 working-hard-smart-tip = Working hard isn't the same as working smart. Be like Monni and work smart.
 remark-of-monni-liking-being-petted-tip = Monni likes being petted.
 lore-of-monni-home-tip = In the stars far away, Monni was born.
 warning-of-large-task-taking-a-while-tip = Categories with an ❗ require a lot of effort from Monni, so be ready to wait a few minutes.
-alt-parasite-remark-tip = Alts to Monni are like parasites. Meant only for the poor and not for him.
+alt-parasite-remark-tip = Alts to Monni are like parasites. Meant only for the poor and not for them.
 monni-likes-parasitic-alts-raw-tip = Btw Monni prefers them raw.
 smile-face-tip = :)
 secret-agent-monni-tip = Monni is like a secret agent for your server. Keeps things safe and private, no matter what.
 prior-habitat-tip = Monni's prior habitat was green and blue, teeming with fauna engulfed in translucent waters.
-remark-of-monni-being-smart-tip = Monni may be a fish, but a bright one he is.
+remark-of-monni-being-smart-tip = Monni may be a fish, but a bright one they are.
 invite-help-tip = You can invite Monni from their profile.
 remember-to-pet-tip = Remember to pet Monni :)
 let-the-prey-think-they-are-safe-tip = Let the parasites think they are safe, and then they become easy prey.
@@ -107,11 +106,11 @@ monni-api-returned-malformed-request = API returned malformed response!
 monni-api-timeout = Api server response timed out. Please rerun the command.
 join-the-support-server-error-button = Join support server
 generic-app-command-error =
-    During execution of this command following error happened:
+    During execution of this command the following error happened:
     `{ $error }`
     Please report this bug at our [support server]({ $support_server_link }) with code `{ $error_identifier }`!
 generic-view-error =
-    During execution of this action following error happened:
+    During execution of this action the following error happened:
     `{ $error }`
     Please report this bug at our [support server]({ $support_server_link }) with code `{ $error_identifier }`!
 discord-group-description = Discord related commands.
@@ -203,7 +202,7 @@ tag-manage-edit-modal-tag-name-placeholder = Name here...
 tag-manage-edit-modal-tag-content-label = Tag content
 tag-manage-edit-modal-tag-content-placeholder = Content here...
 tag-manage-edit-modal-on-error = Something went wrong.
-discord-tag-manage-message-no-tags = Seems like you currently have no tags. You can create one by using /create tag.
+discord-tag-manage-message-no-tags = Seems like you currently have no tags. You can create one by using /tag create.
 discord-slash-tag-manage-name = manage
 discord-slash-tag-manage-description = Manage your tags
 discord-slash-tag-manage-describe-tag = Tag to manage. Leave blank to choose from your list of tags.
@@ -236,7 +235,7 @@ discord-slash-cooldown-error =
 discord-slash-reminder = reminder
 discord-slash-reminder-description = Reminder related commands.
 discord-slash-reminder-create = create
-discord-slash-reminder-create-description = Create a new Reminder. don't worry, Monni isn't going to forget.
+discord-slash-reminder-create-description = Create a new reminder. Don't worry, Monni isn't going to forget.
 discord-slash-reminder-create-describe-about = Topic the reminder is about.
 discord-slash-reminder-create-describe-description = Description of the reminder.
 discord-slash-reminder-create-describe-time = Time at which Monni should remind you.
@@ -270,7 +269,7 @@ help-embed-dashboard = Dashboard
 help-embed-support-server = Support Server
 help-embed-invite-link = Invite link
 slash-discord-invite-monni = invite_monni
-slash-discord-invite-monni-description = Invite Monni. Remember to keep him happy!
+slash-discord-invite-monni-description = Invite Monni. Remember to keep them happy!
 prefix-error-no-private-messages = Monni refuses to let you use this command outside of servers.
 discord-max-concurrency-error =
     Hold on! Monni is only a fish, they can only do so much. Monni only allows { $number ->

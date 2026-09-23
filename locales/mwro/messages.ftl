@@ -1,5 +1,4 @@
 member-permissions = Sanctions
-test = scrutiny
 -brand-name = Catfish
 discord-whois-no-roles = Partaker has an absence of titles.
 discord-whois-roles-field-title = Titles { $count }

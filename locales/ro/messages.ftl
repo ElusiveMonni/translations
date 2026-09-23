@@ -1,5 +1,4 @@
 argument-member = membru
-test = test
 -brand-name = Monni
 discord-whois-no-roles = Utilizatorul nu are roluri.
 discord-whois-roles-field-title = Roluri ({ $count })
@@ -178,7 +177,7 @@ discord-slash-tag-create-describe-content = Conținutul etichetei
 discord-slash-tag-create-argument-name = nume
 discord-slash-tag-create-argument-content = conținut
 tag-manage-edit-modal-on-error = Ceva a mers greșit.
-discord-tag-manage-message-no-tags = Se pare că momentan nu ai etichete. Puteți creea una folosind /create tag.
+discord-tag-manage-message-no-tags = Se pare că momentan nu ai etichete. Puteți creea una folosind /etichetă creează.
 discord-slash-tag-manage-name = gestionează
 discord-slash-tag-manage-description = Gestionează-ți etichetele tale
 discord-slash-tag-manage-describe-tag = Etichetă pentru a gestiona. Lăsați necompletat pentru a alege din lista ta de etichete.

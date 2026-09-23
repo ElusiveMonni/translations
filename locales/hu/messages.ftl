@@ -63,7 +63,6 @@ discord_permission_attach_files = csatolni fájlokat
 discord_permission_change_nickname = becenevek változtatása
 discord_permission_use_embedded_activities = beágyazott tevékenységek használata
 discord_permission_connect = csatlakozni
-test = teszt
 -brand-name = Monni
 discord-whois-no-roles = A felhasználónak nincsenek szerepei.
 discord-whois-roles-field-title = Szerepek ({ $count })

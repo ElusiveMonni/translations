@@ -35,7 +35,6 @@ discord_permission_manage_webhooks = webhooks beheren
 member-permissions = Bevoegdheden
 discord_permission_ban_members = deelnemers verbannen
 discord_permission_external_stickers = externe stickers
-test = test
 discord-whois-category-nitro = Nitro
 discord_permission_change_nickname = verander naam
 discord_permission_connect = verbinden
