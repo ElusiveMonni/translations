@@ -11,20 +11,22 @@ discord_permission_administrator = järjestelmänvalvoja
 discord-whois-badges = Merkit
 discord-unknown-invite = Tuntematon
 discord-unknown-member = Tuntematon
-discord-whois-used-invite = **Käytetty kutsu**: { $used }
-discord-whois-bot-boolean = **Botti**: { $is_bot ->
+discord-whois-used-invite = { "*" }*Käytetty kutsu**: { $used }
+discord-whois-bot-boolean =
+    { "*" }*Botti**: { $is_bot ->
         [True] Tosi
        *[False] Epätosi
     }
-discord-whois-used-invite-creator = **Kutsun luoja**: { $creator }
+discord-whois-used-invite-creator = { "*" }*Kutsun luoja**: { $creator }
 discord-whois-invite-category = Kutsu
-discord-whois-member-id = **Tunniste**: { $member_id }
+discord-whois-member-id = { "*" }*Tunniste**: { $member_id }
 discord-whois-misc-section = Sekalaiset
-discord-whois-nitro-booster-bool = **Nostattaja**: { $is_booster ->
+discord-whois-nitro-booster-bool =
+    { "*" }*Nostattaja**: { $is_booster ->
         [True] Tosi
        *[False] Epätosi
     }
-discord-whois-nitro-booster-since = **Nostattja lähtien**: { $booster_time }
+discord-whois-nitro-booster-since = { "*" }*Nostattja lähtien**: { $booster_time }
 argument-member = jäsen
 discord-whois-category-nitro = Nitro
 discord_permission_create_public_threads = luo julkisia ketjuja
@@ -114,8 +116,8 @@ alt-parasite-remark-tip = Alt-tilit Monnille ovat kuten loiset. Tarkoitettu vain
 monni-log-expires-at-capital = Ei ikinä
 discord_permission_priority_speaker = ensisijainen puhuja
 monni-log-invite-created-link = Kutsu luotu: { $url }
-monni-log-invite-created-uses = **Maksimi käytöt:** { $uses }
-monni-log-invite-created-expires = **Vanhenee:** { $expires }
+monni-log-invite-created-uses = { "*" }*Maksimi käytöt:** { $uses }
+monni-log-invite-created-expires = { "*" }*Vanhenee:** { $expires }
 monni-log-invite-created-title = Kutsu luotu
 monni-invite-creator-id = Luojan tunniste: { $creator_id }
 monni-log-invite-deleted-description = Kutsu poistettu { $invite_url }
@@ -144,16 +146,16 @@ invite-argument-id = kutsun_tunniste
 slash-invite-group-info-argument-invite-id = Kutsun tunniste tai linkki.
 monni-invite-info-title = Kutsu { $invite_id }
 monni-invite-info-expires-never = ei koskaan
-monni-invite-info-invite-id = **Kutsun tunniste:** [{ $invite_id }](https://discord.gg/{ $invite_id })
-monni-invite-info-invite-creator = **Kutsun luoja:** <@{ $inviter_id }>
-monni-invite-info-invite-uses = **Käytöt:** { $uses }
-monni-invite-info-invite-expires-at = **Vanhenee:** { $expire_at }
-monni-invite-info-channel-id = **Kutsun kanava:** <#{ $invite_channel_id }>
+monni-invite-info-invite-id = { "*" }*Kutsun tunniste:** [{ $invite_id }](https://discord.gg/{ $invite_id })
+monni-invite-info-invite-creator = { "*" }*Kutsun luoja:** <@{ $inviter_id }>
+monni-invite-info-invite-uses = { "*" }*Käytöt:** { $uses }
+monni-invite-info-invite-expires-at = { "*" }*Vanhenee:** { $expire_at }
+monni-invite-info-channel-id = { "*" }*Kutsun kanava:** <#{ $invite_channel_id }>
 slash-discord-avatar-description = Hae käyttäjän profiilikuva.
 slash-invite-group-create-arg-max-age = Kutsun enimmäiskesto (oletuksena ääretön)
 monni-missing-invite-permissions = Vaikuttaisi siltä, että Monnilla ei ole oikeuksia hallinnoida kutsuja. Anna Monnille tarvittavat oikeudet komennolla `/invite_monni`. Tutustu tarkemmin [oikeuksiin]{{ $url }}.
 slash-invite-group-sync-description = Synkronoi kaikki palvelimen kutsut Monniin tallennetujen kutsujen kanssa.
-monni-invite-info-invite-created-at = **Luotu:** <t:{ $created_at }:d>
+monni-invite-info-invite-created-at = { "*" }*Luotu:** <t:{ $created_at }:d>
 monni-log-invite-deleted-title = Kutsu poistettu
 verified_account_app_command_description = Hakee tietoa käyttäjän vahvistetusta tilistä.
 verified_account_context_menu_name = Vahvistettu tili
