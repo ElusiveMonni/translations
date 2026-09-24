@@ -103,7 +103,7 @@ monni-missing-invite-permissions = Wydaje się, że Monni brakuje uprawnień, kt
 discord-tag-create-message-over-freemium-limit = Możesz tylko mieć { $max_tags } etykiet. Z premium możesz zwiększyć ten limit do { $max_premium_tags }.
 discord-tag-manage-message-no-tags = Wydaje się, że nie masz żadnych etykiet, Możesz stworzyć jedną za pomocą /tag create.
 discord-slash-tag-get-describe-hidden = Wyślij tę wiadomość prywatne, żeby została widzialna tylko dla ciebie.
-discord-slash-tag-get-describe-copy-mode = Wyślij tę wiadomość w trybie kopiowania, żeby było ci łatwej skopiować później i wkleić. Niezbędne, kiedy serwer ma wyłączone polecenia użytkownika.
+discord-slash-tag-get-describe-copy-mode = Wyślij tę wiadomość w trybie kopiowania, żeby było ci łatwiej skopiować później i wkleić.
 verify-welcome_dm-description = Proszę zweryfikować swoje konto, aby dostać dostęp do reszty serwera. Proszę wybrać zweryfikowane konto lub zweryfikować nowe **[tutaj]({ $verify_url })**. Alternatywnie możesz zweryfikować siebie za pomocą przycisku poniżej.
 discord-slash-cooldown-error =
     Zatrzymaj się! Monni potrzebuje chwile, żeby nadążyć. Spróbuj ponowie za **{ $seconds }** sekund. Monni prosi, żeby używać tę polecenie { $rate ->
