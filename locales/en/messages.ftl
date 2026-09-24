@@ -826,3 +826,135 @@ action-product-missing = Product not found.
 action-variable-name-empty = Variable name is empty.
 action-variable-mode-unknown = Unknown variable mode `{ $mode }`.
 action-variable-render-failed = Couldn't render the value for `{ $name }`: { $error }
+action-slot-unavailable = This action is not available.
+action-paginate-invalid-page = Invalid page expression `{ $expression }`, defaulting to page 1.
+
+## Automation action descriptions, shown on item pages
+
+action-desc-send-private = Sends a message only you can see
+action-desc-send = Sends a message to <#{ $channel }>
+action-desc-send-rich-private = Sends a rich message only you can see
+action-desc-send-rich = Sends a rich message to <#{ $channel }>
+action-desc-give-role = Gives role <@&{ $role }>
+action-desc-remove-role = Removes role <@&{ $role }>
+action-desc-ban = Bans <@{ $member }>
+action-desc-kick = Kicks <@{ $member }>
+action-desc-delete-message = Deletes the message
+action-desc-timeout = Times out { $member } for { $duration }s
+action-desc-warn = Warns { $member }
+action-desc-react = Adds a reaction to the message
+action-desc-give-points = Gives { $member } { $amount } points in { $system }
+action-desc-remove-points = Removes { $member } { $amount } points in { $system }
+action-desc-set-points = Sets { $member } points to { $amount } in { $system }
+action-desc-give-item = Gives { $member } { $amount } of { $item }
+action-desc-remove-item = Removes { $member } { $amount } of { $item }
+action-desc-use-item = Uses item **{ $item }**
+action-desc-use-selected-item = Uses selected item
+action-desc-for-each-member = Runs actions for up to { $count } members
+action-desc-random-member = Selects a random member
+action-desc-purchase = Purchase **{ $item }**
+action-desc-purchase-selected = Purchase selected item
+action-desc-preview-product = Preview product
+action-desc-set-variable = Sets the variable `{ $name }`
+
+## Shop requirements
+
+condition-desc-role = Requires role <@&{ $role }>
+condition-desc-role-not = Must **NOT** have role <@&{ $role }>
+condition-desc-variable = `{ $variable }` { $operator } `{ $value }`
+condition-desc-variable-not = **NOT** `{ $variable }` { $operator } `{ $value }`
+condition-desc-points = { $comparison ->
+        [more-than] Requires more than `{ $amount }` points in **{ $system }**
+        [exactly] Requires exactly `{ $amount }` points in **{ $system }**
+        [at-most] Requires at most `{ $amount }` points in **{ $system }**
+        [less-than] Requires less than `{ $amount }` points in **{ $system }**
+        [other] Requires { $operator } `{ $amount }` points in **{ $system }**
+       *[at-least] Requires at least `{ $amount }` points in **{ $system }**
+    }
+condition-desc-points-not = { $comparison ->
+        [more-than] Must **NOT** have more than `{ $amount }` points in **{ $system }**
+        [exactly] Must **NOT** have exactly `{ $amount }` points in **{ $system }**
+        [at-most] Must **NOT** have at most `{ $amount }` points in **{ $system }**
+        [less-than] Must **NOT** have less than `{ $amount }` points in **{ $system }**
+        [other] Must **NOT** have { $operator } `{ $amount }` points in **{ $system }**
+       *[at-least] Must **NOT** have at least `{ $amount }` points in **{ $system }**
+    }
+condition-desc-item = { $comparison ->
+        [more-than] Requires more than `{ $amount }` of **{ $item }**
+        [exactly] Requires exactly `{ $amount }` of **{ $item }**
+        [at-most] Requires at most `{ $amount }` of **{ $item }**
+        [less-than] Requires less than `{ $amount }` of **{ $item }**
+        [other] Requires { $operator } `{ $amount }` of **{ $item }**
+       *[at-least] Requires at least `{ $amount }` of **{ $item }**
+    }
+condition-desc-item-not = { $comparison ->
+        [more-than] Must **NOT** have more than `{ $amount }` of **{ $item }**
+        [exactly] Must **NOT** have exactly `{ $amount }` of **{ $item }**
+        [at-most] Must **NOT** have at most `{ $amount }` of **{ $item }**
+        [less-than] Must **NOT** have less than `{ $amount }` of **{ $item }**
+        [other] Must **NOT** have { $operator } `{ $amount }` of **{ $item }**
+       *[at-least] Must **NOT** have at least `{ $amount }` of **{ $item }**
+    }
+condition-desc-verified = Must be verified
+condition-desc-verified-not = Must **NOT** be verified
+condition-desc-verified-with = Must be verified with { $provider }
+condition-desc-verified-with-not = Must **NOT** be verified with { $provider }
+
+## Shop purchases
+
+purchase-requirements-not-met = You don't meet the requirements to purchase this item.
+purchase-in-progress = A purchase is already being processed. Please wait a moment and try again.
+purchase-missing-role = You are missing { $role }!
+purchase-not-enough = You don't have enough of `{ $name }`. You have **{ $amount }** and need **{ $required }**
+purchase-succeeded = Purchase of product succeeded
+
+## Points commands
+
+points-label-balance = Balance
+points-label-before = Before
+points-label-after = After
+points-label-diff = Diff
+points-label-author = Author
+points-label-reason = Reason
+points-label-amount = Amount
+points-label-price = Price
+points-label-requirements = Requirements
+points-or = OR
+points-price-free = Free
+points-page-missing = That page does not exist.
+points-page-no-more = There are no more pages.
+points-leaderboard-title = Leaderboard
+points-leaderboard-empty = Nobody owns any of { $name }.
+points-history-title = History
+points-history-empty = No history exist for { $member }.
+points-inventory-title = Inventory
+points-inventory-empty = You have no items in your inventory.
+points-button-select-item = Select item
+points-button-use-item = Use item
+points-item-missing = Item not found.
+points-item-actions-on-use = Action(s) on usage
+points-shop-author = Shop
+points-shop-empty = This shop has no products yet.
+points-shop-missing = Shop doesn't exist. This shouldn't happen please report this!
+points-button-select-product = Select product
+points-button-purchase = Purchase
+points-product-missing = Product not found.
+points-system-missing = Point system doesn't exist. This shouldn't happen please report this!
+points-no-system-title = No point systems
+points-no-system-description = Oops it seems no point system are set for this command. Learn to set one with the guide below.
+points-no-system-footer = If this command worked before you may have deleted the point system(s) connected to this command!
+points-no-shop-title = No shop connected
+points-no-shop-description = Oops it seems no shops are connected to this command. Learn to connect one with the guide below.
+points-no-shop-footer = If this command worked before you may have deleted the shop(s) connected to this command!
+points-no-items-title = No items exists
+points-no-items-description = Oops it seems there are no items to hand out to people.
+points-no-items-footer = If command worked before you likely deleted all the items from dashboard.
+points-edited-title = Points edited
+points-edited-set = { $member } points set to **{ $amount }**.
+points-edited-changed = { $member } points changed by **{ $amount }**.
+points-items-edited-title = Items edited
+points-items-edited = Changed { $member }'s **{ $item }** amount by { $amount }.
+points-send-self = You can't send points to yourself
+points-send-not-enough = You don't have enough points
+points-send-title = Transaction completed
+points-send-success = { $sender } sent { $emoji } `{ $amount }` **{ $alias }** to { $receiver }
