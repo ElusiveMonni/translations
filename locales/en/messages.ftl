@@ -178,7 +178,7 @@ verify-welcome_dm-title = { $name } is protected by Monni verification bot.
 verify-welcome_dm-description = Verify your account to get access to the rest of the server. Press the button below, or open **[the verification page]({ $verify_url })**. If you have linked an account to Monni before, you can pick it there in one click.
 welcome-dm-verify-link-button = Verify
 unknown-invite-info = Monni seems to be unable to find the requested invite. Perhaps try again?
-discord_permission_use_external_apps = use_external_apps
+discord_permission_use_external_apps = use external apps
 discord-tag-slash-get = get
 discord-tag-slash-get-description = Get tag by id, name or part of content.
 discord-slash-tag-group = tag
@@ -285,9 +285,9 @@ slash-discord-dashboard-embed-title = Monni dashboard
 slash-discord-dashboard-embed-description = You can go to the dashboard [here]({ $dashboard_url }) and change how Monni behaves.
 slash-discord-invite-monni-embed-title = Invite Monni
 slash-discord-invite-monni-embed-footer = Adopt your own Monni today!
-discord_permission_set_voice_channel_status = set_voice_channel_status
-discord_permission_bypass_slowmode = bypass_slowmode
-discord_permission_pin_messages = pin_messages
+discord_permission_set_voice_channel_status = set voice channel status
+discord_permission_bypass_slowmode = bypass slowmode
+discord_permission_pin_messages = pin messages
 nickname-update-not-admin = Only administrators can update somebody else's nickname!
 nickname-update-hierarchy = Monni cannot change the nickname of people higher in the role hierarchy! This includes the owner.
 nickname-update-verification-disabled = Verification is disabled in this server.
@@ -958,3 +958,469 @@ points-send-self = You can't send points to yourself
 points-send-not-enough = You don't have enough points
 points-send-title = Transaction completed
 points-send-success = { $sender } sent { $emoji } `{ $amount }` **{ $alias }** to { $receiver }
+
+## Logs
+
+log-unknown = Unknown
+log-none = None
+log-unknown-member = Unknown member
+log-likely = { $name } (likely)
+
+log-field-actor = Performed by
+log-field-member = Member
+log-field-target = Target
+log-field-channel = Channel
+log-field-message-author = Message author
+log-field-reason = Reason
+log-field-before = Before
+log-field-after = After
+log-field-changes = Changes
+log-field-roles = Roles
+log-field-roles-removed = Roles removed
+log-field-roles-added = Roles added
+log-field-duration = Duration
+log-field-expires = Expires
+log-field-account-age = Account created
+log-field-member-count = Member count
+log-field-invite = Invite
+log-field-emoji = Emoji
+log-field-content = Content
+log-field-attachments = Attachments
+log-field-new-total = New total
+log-field-origin = Via
+log-field-sender-balance = Sender now has
+log-field-recipient-balance = Recipient now has
+log-field-balance-after = Balance after
+log-field-cost = Cost
+log-field-rewards = Rewards
+log-field-failed-actions = Failed actions
+log-field-platform = Platform
+log-field-linked-account = Linked account
+log-field-roles-granted = Roles granted
+log-field-app = Bot
+log-field-permissions = Permissions granted
+log-field-command = Command
+log-field-integration = Integration
+log-field-type = Type
+log-field-account = Account
+log-field-webhook = Webhook
+log-field-boost-count = Server boosts
+log-field-boost-tier = Server tier
+log-field-boosted-since = Boosted for
+
+log-button-jump-message = Jump to message
+log-button-jump-channel = Jump to channel
+log-button-view-thread = View thread
+log-button-view-event = View event
+log-button-view-invite = View invite
+log-button-view-rule = View rule
+log-button-old-avatar = Old avatar
+log-button-new-avatar = New avatar
+
+log-could-not-determine = Monni noticed this was edited but could not determine what changed.
+log-content-hidden = The message was edited. This server does not include message content in logs.
+log-content-too-long = Too long to show here, attached as files.
+log-title-in-channel = { $title } in { $channel }
+log-item-given = { $member } received { $amount } × { $item }
+log-item-removed = { $amount } × { $item } taken from { $member }
+log-item-used = { $member } used { $amount } × { $item }
+log-item-remaining = { $count } left
+log-points-changed = { $actor } changed { $member }'s { $system } by { $delta }
+log-points-sent = { $sender } sent { $amount } { $system } to { $receiver }
+log-shop-purchased = { $member } bought { $product }
+log-milestone-reached = { $member } reached { $milestone } at { $requirement } points
+log-verification-completed = { $member } verified with { $platform }
+log-verification-removed = { $member } is no longer verified
+log-verification-changed = { $member } changed their linked { $platform } account
+log-verify-reason-manual = The account was unlinked
+log-verify-reason-ban = A linked account is banned
+log-webhook-created = A webhook was created in { $channel }
+log-webhook-updated = A webhook was edited in { $channel }
+log-webhook-deleted = A webhook was deleted in { $channel }
+log-webhook-changed = A webhook was created, edited or deleted in { $channel }
+log-boost-started = { $member } started boosting the server
+log-boost-stopped = { $member } stopped boosting the server
+log-item-via-command = Item command
+log-item-via-automation = Automation
+log-item-via-purchase = Shop purchase
+
+log-id-bot = Bot id
+log-id-channel = Channel id
+log-id-integration = Integration id
+log-id-item = Item id
+log-id-member = Member id
+log-id-message = Message id
+log-id-milestone = Milestone id
+log-id-recipient = Recipient id
+log-id-sender = Sender id
+
+log-type-message-edit = Message edited
+log-type-message-delete = Message deleted
+log-type-message-bulk-delete = Bulk delete
+log-type-message-pin = Message pinned
+log-type-message-unpin = Message unpinned
+log-type-reaction-clear = Reactions cleared
+log-type-reaction-clear-emoji = Reaction emoji cleared
+log-type-join = Member joined
+log-type-leave = Member left
+log-type-nickname-change = Nickname changed
+log-type-role-give = Roles added
+log-type-role-remove = Roles removed
+log-type-server-avatar-change = Server avatar changed
+log-type-boost-start = Started boosting
+log-type-boost-stop = Stopped boosting
+log-type-ban = Member banned
+log-type-unban = Member unbanned
+log-type-kick = Member kicked
+log-type-timeout = Member timed out
+log-type-remove-timeout = Timeout removed
+log-type-warn = Member warned
+log-type-mute = Member muted
+log-type-unmute = Member unmuted
+log-type-vc-mute = Voice muted
+log-type-vc-unmute = Voice unmuted
+log-type-vc-deafen = Voice deafened
+log-type-vc-undeafen = Voice undeafened
+log-type-channel-create = Channel created
+log-type-channel-delete = Channel deleted
+log-type-channel-update = Channel updated
+log-type-thread-create = Thread created
+log-type-thread-delete = Thread deleted
+log-type-thread-update = Thread updated
+log-type-role-create = Role created
+log-type-role-delete = Role deleted
+log-type-role-update = Role updated
+log-type-server-update = Server updated
+log-type-emoji-create = Emoji added
+log-type-emoji-delete = Emoji removed
+log-type-emoji-update = Emoji renamed
+log-type-sticker-create = Sticker added
+log-type-sticker-delete = Sticker removed
+log-type-sticker-update = Sticker updated
+log-type-stage-create = Stage started
+log-type-stage-update = Stage updated
+log-type-stage-delete = Stage ended
+log-type-event-create = Event created
+log-type-event-delete = Event deleted
+log-type-event-update = Event updated
+log-type-event-user-add = Event RSVP added
+log-type-event-user-remove = Event RSVP removed
+log-type-vc-join = Joined voice
+log-type-vc-leave = Left voice
+log-type-vc-move = Moved voice channel
+log-type-invite-create = Invite created
+log-type-invite-delete = Invite deleted
+log-type-invite-usage = Invite used
+log-type-automod-action = AutoMod acted
+log-type-rule-create = Rule created
+log-type-rule-update = Rule updated
+log-type-rule-delete = Rule deleted
+log-type-bot-add = Bot added
+log-type-bot-remove = Bot removed
+log-type-bot-permissions-update = Bot permissions changed
+log-type-integration-create = Integration added
+log-type-integration-update = Integration updated
+log-type-integration-delete = Integration removed
+log-type-webhook-update = Webhooks changed
+log-type-verification-complete = Verification completed
+log-type-verification-remove = Verification removed
+log-type-verification-change = Verification changed
+log-type-point-edit = Points changed
+log-type-point-sent = Points transferred
+log-type-shop-purchase = Shop purchase
+log-type-milestone-reached = Milestone reached
+log-type-milestone-lost = Milestone lost
+log-type-item-give = Item given
+log-type-item-remove = Item removed
+log-type-item-use = Item used
+
+## Log handlers: messages
+
+log-message-bulk-deleted = { $count ->
+        [one] **{ $count }** message deleted in { $channel }
+       *[other] **{ $count }** messages deleted in { $channel }
+    }
+log-message-deleted-by = { $actor } deleted a message
+
+## Log handlers: members
+
+log-member-joined-title = Member joined
+# $ordinal is the member count as an English ordinal ("42nd"). Other languages can use the plain number, $position.
+log-member-joined = { $member }, welcome to **{ $server }**. You were **{ $position ->
+       *[other] { $ordinal }
+    }** to join.
+log-member-account-created = **Account created** <t:{ $created }:F> (<t:{ $created }:R>)
+log-member-new-account = **New account warning**. Created <t:{ $created }:F> (<t:{ $created }:R>)
+log-member-joiner-id = Joiner id: { $id }
+log-member-left-title = Member left
+log-member-left = { $member } left. They joined <t:{ $joined }:R> (<t:{ $joined }:F>)
+log-member-left-roles = Roles ({ $count })
+log-member-leaver-id = Leaver id: { $id }
+log-member-invite-used-title = Invite used
+log-member-invite-used = { $member } joined using invite { $invite }, created by { $inviter } ({ $inviter_id }).
+log-member-invite-unknown = { $member } ({ $id }) joined. Couldn't tell which invite was used.
+log-member-nick-self = { $member } changed their nickname
+log-member-nick = { $actor } changed { $member }'s nickname
+log-member-avatar-set = { $member } set a server avatar
+log-member-avatar-removed = { $member } removed their server avatar
+log-member-avatar-changed = { $member } changed their server avatar
+log-member-roles-removed-self = { $member } removed roles from themselves
+log-member-roles-removed = { $actor } removed roles from { $member }
+log-member-roles-added-self = { $member } added roles to themselves
+log-member-roles-added = { $actor } added roles to { $member }
+
+## Log handlers: channels, voice and threads
+
+# $type is Discord's channel type, such as text or voice.
+log-channel-created-title = { $type ->
+        [text] Text channel created
+        [voice] Voice channel created
+        [category] Category created
+        [news] Announcement channel created
+        [stage_voice] Stage channel created
+        [forum] Forum channel created
+        [media] Media channel created
+       *[other] Channel created
+    }
+log-channel-deleted-title = { $type ->
+        [text] Text channel deleted
+        [voice] Voice channel deleted
+        [category] Category deleted
+        [news] Announcement channel deleted
+        [stage_voice] Stage channel deleted
+        [forum] Forum channel deleted
+        [media] Media channel deleted
+       *[other] Channel deleted
+    }
+log-channel-updated-title = { $type ->
+        [text] Text channel updated
+        [voice] Voice channel updated
+        [category] Category updated
+        [news] Announcement channel updated
+        [stage_voice] Stage channel updated
+        [forum] Forum channel updated
+        [media] Media channel updated
+       *[other] Channel updated
+    }
+log-channel-name = **Name:** { $name }
+log-channel-category = **Category:** { $category }
+log-channel-channel-id = **Channel id:** { $id }
+log-channel-creator = **Creator:** { $actor }
+log-channel-deleter = **Deleter:** { $actor }
+log-channel-id = Channel id: { $id }
+log-channel-new-id = New channel id: { $id }
+log-channel-member-id = Member id: { $id }
+log-channel-overwrites-for = **Overwrites for { $target }**
+log-channel-overwrites-edited = **Overwrites edited for { $target }.**
+log-channel-overwrite-added = **Overwrite added for { $target } in { $channel }.**
+log-channel-overwrite-removed = **Overwrite removed for { $target } in { $channel }.**
+log-channel-note = **Note**
+log-channel-too-many-overwrites = Too many overwrites to display.
+log-channel-old-topic = **Old topic**
+log-channel-new-topic = **New topic**
+log-channel-no-topic = No topic set.
+log-channel-undetermined = Monni noticed a channel being edited but cannot determine what changed.
+log-channel-pinned = { $actor } pinned a message in { $channel }
+log-channel-unpinned = { $actor } unpinned a message in { $channel }
+log-channel-reactions-cleared = All reactions were removed from a message in { $channel }
+log-channel-emoji-cleared = All { $emoji } reactions were removed from a message in { $channel }
+log-channel-vc-joined-title = Member joined voice channel
+log-channel-vc-joined = { $member } joined { $channel }
+log-channel-vc-left-title = Member left voice channel
+log-channel-vc-left = { $member } left { $channel }
+log-channel-vc-moved-title = Member changed voice channel
+log-channel-vc-moved-by = { $actor } moved { $member } from { $before } to { $after }.
+log-channel-vc-moved = { $member } moved from { $before } to { $after }.
+log-channel-vc-muted-title = Member VC muted
+log-channel-vc-muted = { $member } was VC muted.
+log-channel-vc-unmuted-title = Member VC unmuted
+log-channel-vc-unmuted = { $member } was VC unmuted.
+log-channel-vc-deafened-title = Member VC deafened
+log-channel-vc-deafened = { $member } was VC deafened.
+log-channel-vc-undeafened-title = Member VC undeafened
+log-channel-vc-undeafened = { $member } was VC undeafened.
+log-channel-tags = **Tags**
+log-channel-thread-created-title = Thread created
+log-channel-thread-created = <@{ $owner }> created { $thread } in <#{ $parent }>.
+log-channel-thread-id = Thread id: { $id }
+log-channel-thread-deleted-title = Thread deleted
+log-channel-thread-deleted = { $actor } deleted **{ $thread }** from <#{ $parent }> ({ $parent }). Thread was initially created by { $creator }.
+log-channel-thread-updated-title = Thread updated
+log-channel-thread-updated = Thread was edited by { $actor }.
+
+## Log handlers: server events, emojis, stickers, roles
+
+log-server-description = **Description**
+log-server-event-created-title = Event created
+log-server-event-hosted-in = Event is being hosted in { $channel }.
+log-server-event-created = { $actor } created event [**{ $event }**]({ $url }). { $channel }
+log-server-event-type = **Event type:** { $type }
+log-server-event-privacy = **Privacy level:** { $privacy }
+log-server-event-status = **Status:** { $status }
+log-server-event-no-location = No location specified
+log-server-event-location = **Location:** { $location }
+log-server-event-start = **Start time:** <t:{ $time }:d> (<t:{ $time }:R>)
+log-server-event-end = **End time:** <t:{ $time }:d> (<t:{ $time }:R>)
+log-server-event-id = Event id: { $id }
+log-server-event-deleted-title = Event deleted
+log-server-event-deleted = Event **{ $event }** was deleted by { $actor }. { $count ->
+        [one] **{ $count }** member was interested.
+       *[other] **{ $count }** members were interested.
+    }
+log-server-event-updated-title = Event updated
+log-server-event-no-channel = No channel
+log-server-event-channel = **Channel:** { $channel }
+log-server-event-no-end = **End time:** No end time
+log-server-cover-added = **Cover image added**
+log-server-cover-removed = **Cover image removed**
+log-server-emoji-created-title = Emoji created
+log-server-emoji-created = { $actor } created emoji { $emoji } **{ $name }**.
+log-server-emoji-deleted-title = Emoji deleted
+log-server-emoji-deleted = { $actor } deleted emoji **{ $name }** ({ $id }).
+log-server-emoji-renamed-title = Emoji renamed
+log-server-emoji-renamed = { $actor } renamed { $emoji } **{ $before }** ➔ **{ $after }**.
+log-server-emoji-id = Emoji id: { $id }
+log-server-sticker-created-title = Sticker created
+log-server-sticker-created = { $actor } created sticker **{ $name }**. Attached emoji :{ $emoji }:
+log-server-sticker-deleted-title = Sticker deleted
+log-server-sticker-deleted = { $actor } deleted sticker **{ $name }**. Attached emoji :{ $emoji }:
+log-server-sticker-updated-title = Sticker updated
+log-server-sticker-id = Sticker id: { $id }
+log-server-role-created-title = Role created
+log-server-role-created = { $actor } created role { $role }.
+log-server-role-deleted-title = Role deleted
+log-server-role-deleted = { $actor } deleted role **{ $name }** ({ $id }).
+log-server-role-updated-title = Role { $name } updated
+log-server-role-new-icon = **New role icon**
+log-server-role-id = Role id: { $id }
+log-server-guild-updated-title = Server updated
+log-server-guild-id = Server id: { $id }
+
+## Log handlers: bots, integrations and webhooks
+
+log-integration-bot-added = { $bot } was added to the server
+log-integration-bot-removed = **{ $bot }** was removed from the server
+log-integration-command-permissions = Command permissions changed for { $bot }
+log-integration-all-commands = All commands
+log-integration-added = **{ $name }** was added
+log-integration-updated = **{ $name }** was updated
+log-integration-removed-for = An integration for { $bot } was removed
+log-integration-removed = An integration was removed
+
+## Log handlers: Discord automod rules
+
+log-automod-created-title = Automod rule created
+log-automod-updated-title = Automod rule updated
+log-automod-deleted-title = Automod rule deleted
+log-automod-creator-id = Creator id: { $id }
+log-automod-info = **Info**
+log-automod-id = **Id:** { $id }
+log-automod-name = **Name:** { $name }
+log-automod-mention-limit = **Mention limit:** { $limit }
+log-automod-presets = **Presets**
+log-automod-profanity = **Profanity:** { $value }
+log-automod-slurs = **Slurs:** { $value }
+log-automod-sexual-content = **Sexual content:** { $value }
+log-automod-not-set = Not set
+log-automod-cooldown-disabled = Cooldown disabled
+log-automod-actions = **Actions**
+log-automod-alert-channel = **Alert channel:** { $channel }
+log-automod-cooldown-duration = **Cooldown duration:** { $duration }
+log-automod-block-message = **Block message:** { $value }
+log-automod-keyword-filters = **Keyword filters**
+log-automod-regex-patterns = **Regex patterns**
+log-automod-allowed-list = **Allowed list**
+log-automod-exempt-roles = **Exempt roles**
+log-automod-exempt-channels = **Exempt channels**
+
+## Log handlers: server boosts
+
+log-boost-level = Level { $level }
+log-boost-months = { $count ->
+        [one] { $count } month
+       *[other] { $count } months
+    }
+log-boost-days = { $count ->
+        [one] { $count } day
+       *[other] { $count } days
+    }
+log-boost-hours = { $count ->
+        [one] { $count } hour
+       *[other] { $count } hours
+    }
+log-boost-minutes = { $count ->
+        [one] { $count } minute
+       *[other] { $count } minutes
+    }
+log-boost-under-a-minute = less than a minute
+
+## Log handlers: points
+
+log-milestone-lost-title = Milestone lost
+log-milestone-lost = { $member } went below the requirement for the **{ $milestone }** milestone. Milestone requires `{ $requirement }` points.
+
+## Log handlers: moderation commands
+
+log-mod-footer = Moderator id: { $moderator } · Target id: { $target }
+log-mod-expiration = Expiration
+log-mod-muted-title = Case #{ $case } { $target } muted
+log-mod-muted = { $moderator } muted { $mention }.
+log-mod-timed-out-title = Case #{ $case } { $target } timed out
+log-mod-timed-out = { $moderator } timed out { $mention }.
+log-mod-banned-title = Case #{ $case } { $target } banned
+log-mod-banned = { $moderator } banned **{ $target }**.
+log-mod-kicked-title = Case #{ $case } { $target } kicked
+log-mod-kicked = { $moderator } kicked **{ $target }**.
+log-mod-warned-title = Case #{ $case } { $target } warned
+log-mod-warned = { $moderator } warned { $mention }.
+log-mod-unbanned-title = { $target } unbanned
+log-mod-unbanned = { $moderator } unbanned **{ $target }**.
+log-mod-untimed-out-title = { $target } had timeout removed
+log-mod-untimed-out = { $moderator } removed timeout from { $mention }.
+log-mod-unmuted-title = { $target } unmuted
+log-mod-unmuted = { $moderator } unmuted { $mention }.
+
+## Log handlers: changed attributes and values
+
+log-attr-name = name
+log-attr-category = category
+log-attr-default-auto-archive-duration = default auto archive duration
+log-attr-nsfw = nsfw
+log-attr-slowmode-delay = slowmode delay
+log-attr-bitrate = bitrate
+log-attr-user-limit = user limit
+log-attr-rtc-region = rtc region
+log-attr-video-quality-mode = video quality mode
+log-attr-default-thread-slowmode-delay = default thread slowmode delay
+log-attr-default-reaction-emoji = default reaction emoji
+log-attr-type = type
+log-attr-archived = archived
+log-attr-locked = locked
+log-attr-invitable = invitable
+log-attr-auto-archive-duration = auto archive duration
+log-attr-location = location
+log-attr-status = status
+log-attr-privacy-level = privacy level
+log-attr-entity-type = entity type
+log-attr-emoji = emoji
+log-attr-color = color
+log-attr-mentionable = mentionable
+log-attr-hoist = hoist
+log-attr-description = description
+log-attr-verification-level = verification level
+log-attr-vanity-url-code = vanity url code
+log-attr-explicit-content-filter = explicit content filter
+log-attr-default-notifications = default notifications
+log-attr-afk-channel = afk channel
+log-attr-nsfw-level = nsfw level
+log-attr-mfa-level = mfa level
+log-attr-premium-progress-bar-enabled = premium progress bar enabled
+log-attr-widget-enabled = widget enabled
+log-attr-max-video-channel-users = max video channel users
+log-attr-afk-timeout = afk timeout
+log-attr-premium-tier = premium tier
+log-attr-expire-behavior = expire behavior
+log-attr-expire-grace-period = expire grace period
+log-attr-enable-emoticons = enable emoticons
+log-true = True
+log-false = False
