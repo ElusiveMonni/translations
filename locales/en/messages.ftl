@@ -1424,3 +1424,77 @@ log-attr-expire-grace-period = expire grace period
 log-attr-enable-emoticons = enable emoticons
 log-true = True
 log-false = False
+
+## Verification message: what a member has to do
+
+# $steps is one or two of the steps below, joined with verification-list-and.
+verification-requirement = You'll need to { $steps }.
+verification-step-captcha = pass a quick human check
+# $providers is one platform, or several joined with verification-list-and.
+verification-step-link-required = { $count ->
+        [one] link your { $providers } account
+       *[other] link your { $providers } accounts
+    }
+# $providers is one platform, or several joined with verification-list-or.
+verification-step-link-any = link a { $providers } account
+# $first is every item but the last, separated by commas.
+verification-list-and = { $first } and { $last }
+verification-list-or = { $first } or { $last }
+
+## Duration suggestions while typing a time
+
+time-choice-over-maximum = Over maximum time of { $seconds } seconds.
+time-choice-under-minimum = Under minimum time of { $seconds } seconds.
+time-error-invalid = `{ $value }` isn't a valid time. Try something like `30m`, `2 days` or `1 week`.
+time-error-too-long = That's too long. The longest allowed is { $maximum }.
+time-error-too-short = That's too short. The shortest allowed is { $minimum }.
+
+## Descriptions of a server's own points commands
+
+points-command-balance-description = Balance command
+points-command-leaderboard-description = Leaderboard command
+points-command-edit-points-description = Edit points command
+points-command-history-description = History command
+points-command-edit-items-description = Edit items command
+points-command-send-description = Send command
+points-command-inventory-description = Inventory command
+points-command-shop-description = Shop command
+
+## Command and option names
+
+argument-amount = amount
+argument-case-id = case_id
+argument-contains = contains
+argument-duration = duration
+argument-has-embeds = has_embeds
+argument-has-files = has_files
+argument-has-links = has_links
+argument-human-only = human_only
+argument-invert = invert
+argument-match = match
+argument-message = message
+argument-regex = regex
+argument-roblox-id = roblox_id
+argument-roblox-name = roblox_name
+argument-roblox-user = roblox_user
+argument-time = time
+slash-discord-group-name = discord
+slash-help-name = help
+slash-mod-ban-name = ban
+slash-mod-edit-case-name = edit_case
+slash-mod-group-name = mod
+slash-mod-history-name = history
+slash-mod-kick-name = kick
+slash-mod-mute-name = mute
+slash-mod-purge-name = purge
+slash-mod-remove-case-name = remove_case
+slash-mod-remove-timeout-name = remove_timeout
+slash-mod-timeout-name = timeout
+slash-mod-unban-name = unban
+slash-mod-unmute-name = unmute
+slash-mod-warn-name = warn
+slash-roblox-get-info-name = get_info
+slash-roblox-group-name = roblox
+slash-roblox-reverse-lookup-name = reverse_lookup
+slash-timestamp-name = timestamp
+slash-update-name = update
