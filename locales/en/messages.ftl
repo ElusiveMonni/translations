@@ -752,6 +752,7 @@ moderation-case-title = Case #{ $case }
 moderation-case-deleted-title = Deleted case #{ $case }
 moderation-history-edit = Edit
 moderation-history-delete = Delete
+# i18n: keep - the text commands were removed for now and may come back
 moderation-warn-usage = Usage: { $monni } `w <member> [reason]`
 slash-mod-group-description = Commands related to moderation
 slash-mod-warn-description = Warn a member
@@ -768,7 +769,7 @@ slash-mod-unban-describe-reason = Reason for the unban - falls back to the serve
 slash-mod-timeout-description = Timeout a member for a specified duration
 slash-mod-timeout-describe-member = Discord member or id
 slash-mod-timeout-describe-reason = Reason for the timeout - falls back to the server's default
-slash-mod-timeout-describe-duration = How long the timeout lasts, e.g. 7d, 12h - leave blank for the server's default, capped at 28 days
+slash-mod-timeout-describe-duration = How long the timeout lasts, e.g. 7d, 12h - leave blank for the server's default
 slash-mod-remove-timeout-description = Remove a timeout from a member
 slash-mod-remove-timeout-describe-member = Discord member or id
 slash-mod-remove-timeout-describe-reason = Reason for the removal - falls back to the server's default
