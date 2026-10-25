@@ -637,8 +637,8 @@ moderation-punishment-title = { $action ->
         [muted] Muted
         [timed_out] Timed out
         [unbanned] Unbanned
-        [untimed_out] Un-timed-out
-       *[unmuted] Un-muted
+        [untimed_out] Untimed out
+       *[unmuted] Unmuted
     }
 moderation-punishment-dm-description = You were { $action ->
         [kicked] kicked
@@ -646,8 +646,8 @@ moderation-punishment-dm-description = You were { $action ->
         [muted] muted
         [timed_out] timed out
         [unbanned] unbanned
-        [untimed_out] un-timed-out
-       *[unmuted] un-muted
+        [untimed_out] untimed out
+       *[unmuted] unmuted
     } from **{ $guild }**.
 moderation-punishment-by = { $action ->
         [kicked] Kicked by
@@ -655,8 +655,8 @@ moderation-punishment-by = { $action ->
         [muted] Muted by
         [timed_out] Timed out by
         [unbanned] Unbanned by
-        [untimed_out] Un-timed-out by
-       *[unmuted] Un-muted by
+        [untimed_out] Untimed out by
+       *[unmuted] Unmuted by
     }
 moderation-reply-title = Member { $action ->
         [kicked] kicked
@@ -664,8 +664,8 @@ moderation-reply-title = Member { $action ->
         [muted] muted
         [timed_out] timed out
         [unbanned] unbanned
-        [untimed_out] un-timed-out
-       *[unmuted] un-muted
+        [untimed_out] untimed out
+       *[unmuted] unmuted
     }
 moderation-reply-description = { $member } has been { $action ->
         [kicked] kicked
@@ -673,8 +673,8 @@ moderation-reply-description = { $member } has been { $action ->
         [muted] muted
         [timed_out] timed out
         [unbanned] unbanned
-        [untimed_out] un-timed-out
-       *[unmuted] un-muted
+        [untimed_out] untimed out
+       *[unmuted] unmuted
     }.
 moderation-duration = Duration
 moderation-case-footer = Case #{ $case }
@@ -709,11 +709,11 @@ moderation-length = Length
 moderation-maximum-length = Maximum length
 moderation-history-page-title = { $category ->
         [no_category] Moderation history
-        [warn] Warns history
-        [mute] Mutes history
-        [timeout] Timeouts history
-        [kick] Kicks history
-       *[ban] Bans history
+        [warn] Warn history
+        [mute] Mute history
+        [timeout] Timeout history
+        [kick] Kick history
+       *[ban] Ban history
     }
 moderation-history-case-line = { $date } Target { $target }. Moderator { $moderator }.
 moderation-history-case-duration = Duration { $duration }.
@@ -1382,7 +1382,7 @@ log-mod-kicked-title = Case #{ $case } { $target } kicked
 log-mod-kicked = { $moderator } kicked **{ $target }**.
 log-mod-warned-title = Case #{ $case } { $target } warned
 log-mod-warned = { $moderator } warned { $mention }.
-log-mod-unwarned-title = Case #{ $case } { $target } warn removed
+log-mod-unwarned-title = Case #{ $case } warn removed from { $target }
 log-mod-unwarned = { $moderator } removed a warn from { $mention }.
 log-mod-warn-expired-title = Case #{ $case } { $target } warn expired
 log-mod-warn-expired = A warn on { $mention } expired.
