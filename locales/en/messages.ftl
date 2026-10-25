@@ -354,6 +354,7 @@ two-factor-separate-footer = Monni 2FA is separate from Discord 2FA.
 two-factor-settings-button = Monni settings
 two-factor-provide-code = Please provide your auth code.
 command-not-found-error = Command { $name } doesn't currently exist. If the command is supposed to exist, please wait a few minutes. If this doesn't help, join our support server for help.
+command-out-of-date-error = This command is out of date on this server. Monni is refreshing it now, so please try again in a minute.
 discord-input-member-not-found-error = That user isn't a member of this server, so Monni can't use them for this command.
 discord-input-invalid-error = Monni couldn't understand one of the options you gave. Please check it and try again.
 channel-link-code-missing = That code doesn't exist. Check you copied all of it.
