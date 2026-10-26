@@ -1017,6 +1017,8 @@ log-field-webhook = Webhook
 log-field-boost-count = Server boosts
 log-field-boost-tier = Server tier
 log-field-boosted-since = Boosted for
+log-field-actions-taken = Actions taken
+log-field-matched = Matched
 
 log-button-jump-message = Jump to message
 log-button-jump-channel = Jump to channel
@@ -1026,6 +1028,7 @@ log-button-view-invite = View invite
 log-button-view-rule = View rule
 log-button-old-avatar = Old avatar
 log-button-new-avatar = New avatar
+log-button-view-alert = View alert
 
 log-could-not-determine = Monni noticed this was edited but could not determine what changed.
 log-content-hidden = The message was edited. This server does not include message content in logs.
@@ -1059,6 +1062,7 @@ log-id-channel = Channel id
 log-id-integration = Integration id
 log-id-item = Item id
 log-id-member = Member id
+log-id-rule = Rule id
 log-id-message = Message id
 log-id-milestone = Milestone id
 log-id-recipient = Recipient id
@@ -1346,6 +1350,17 @@ log-automod-regex-patterns = **Regex patterns**
 log-automod-allowed-list = **Allowed list**
 log-automod-exempt-roles = **Exempt roles**
 log-automod-exempt-channels = **Exempt channels**
+log-automod-action-summary-channel = { $member } broke the rule **{ $rule }** in { $channel }
+log-automod-action-summary = { $member } broke the rule **{ $rule }**
+log-automod-action-blocked = Blocked the message
+log-automod-action-alert = Sent an alert to { $channel }
+log-automod-action-timeout = Timed out until <t:{ $until }:f>
+log-automod-action-interactions = Blocked the member from interacting
+log-automod-trigger-keyword = Keyword
+log-automod-trigger-spam = Spam
+log-automod-trigger-preset = Keyword preset
+log-automod-trigger-mention-spam = Mention spam
+log-automod-trigger-member-profile = Member profile
 
 ## Log handlers: server boosts
 
