@@ -1398,6 +1398,7 @@ log-mod-timed-out-title = Case #{ $case } { $target } timed out
 log-mod-timed-out = { $moderator } timed out { $mention }.
 log-mod-banned-title = Case #{ $case } { $target } banned
 log-mod-banned = { $moderator } banned **{ $target }**.
+log-mod-banned-no-case-title = { $target } banned
 log-mod-kicked-title = Case #{ $case } { $target } kicked
 log-mod-kicked = { $moderator } kicked **{ $target }**.
 log-mod-warned-title = Case #{ $case } { $target } warned
@@ -1412,6 +1413,11 @@ log-mod-untimed-out-title = { $target } had timeout removed
 log-mod-untimed-out = { $moderator } removed timeout from { $mention }.
 log-mod-unmuted-title = { $target } unmuted
 log-mod-unmuted = { $moderator } unmuted { $mention }.
+log-mod-native-kicked = { $actor } kicked { $member }.
+log-mod-native-banned = { $actor } banned { $member }.
+log-mod-native-unbanned = { $actor } unbanned { $member }.
+log-mod-native-timed-out = { $actor } timed out { $member }.
+log-mod-native-timeout-removed = { $actor } removed the timeout from { $member }.
 
 ## Log handlers: changed attributes and values
 
