@@ -301,6 +301,8 @@ guild-join-embed-commands = Commands
 guild-join-embed-commands-link = See the full list of commands [here]({ $url })
 guild-join-embed-modules = Modules
 guild-join-embed-modules-link = See the full list of modules and features [here]({ $url })
+guild-join-embed-missing-permissions = Missing permissions
+guild-join-embed-missing-permissions-value = Some features won't work without: { $permissions }. [Grant them here]({ $url }).
 guild-join-embed-website = Click here to visit our website!
 slash-timestamp-description = Gives you a list of Unix timestamps
 slash-timestamp-describe-time = Time to choose from
@@ -1149,6 +1151,10 @@ log-type-milestone-lost = Milestone lost
 log-type-item-give = Item given
 log-type-item-remove = Item removed
 log-type-item-use = Item used
+log-type-permission-problem = Missing permission
+log-type-automation-failed = Automation failed
+log-automation-failed = The automation **{ $name }** ran, but an action failed.
+log-automation-unnamed = Unnamed
 
 ## Log handlers: messages
 
@@ -1539,3 +1545,8 @@ slash-roblox-group-name = roblox
 slash-roblox-reverse-lookup-name = reverse_lookup
 slash-timestamp-name = timestamp
 slash-update-name = update
+permission-problem-role-too-low = Monni's role is below the role or member it needs to manage. Drag Monni's role higher in Server Settings > Roles, then try again. Guide: { $guide }
+permission-problem-no-access-channel = Monni can't see { $channel }. Give Monni's role access to that channel, then try again.
+permission-problem-no-access = Monni can't see a channel it needs. Check that Monni's role can view the channels it uses.
+permission-problem-missing-in-channel = Monni is missing the **{ $permission }** permission in { $channel }. Give Monni's role this permission in that channel's settings, then try again.
+permission-problem-missing = Monni is missing the **{ $permission }** permission. Give it to Monni's role in Server Settings > Roles, then try again.
