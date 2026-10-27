@@ -1181,6 +1181,7 @@ log-member-leaver-id = Leaver id: { $id }
 log-member-invite-used-title = Invite used
 log-member-invite-used = { $member } joined using invite { $invite }, created by { $inviter } ({ $inviter_id }).
 log-member-invite-unknown = { $member } ({ $id }) joined. Couldn't tell which invite was used.
+log-member-invite-no-permission = { $member } ({ $id }) joined. Monni needs the Manage Server permission to see which invite was used.
 log-member-nick-self = { $member } changed their nickname
 log-member-nick = { $actor } changed { $member }'s nickname
 log-member-avatar-set = { $member } set a server avatar
