@@ -919,6 +919,15 @@ purchase-in-progress = A purchase is already being processed. Please wait a mome
 purchase-missing-role = You are missing { $role }!
 purchase-not-enough = You don't have enough of `{ $name }`. You have **{ $amount }** and need **{ $required }**
 purchase-succeeded = Purchase of product succeeded
+purchase-not-yet-available = This product isn't available yet. It goes on sale { $time }.
+purchase-no-longer-available = This product is no longer available.
+purchase-member-limit = You've already bought this the most times allowed ({ $limit }).
+purchase-sold-out = This product is sold out.
+shop-available-from = Available { $time }
+shop-available-until = Ends { $time }
+shop-sold-out = Sold out
+shop-stock-left = { $count } left
+shop-post-placeholder = Pick a product to buy
 
 ## Points commands
 
@@ -1153,6 +1162,9 @@ log-type-item-remove = Item removed
 log-type-item-use = Item used
 log-type-permission-problem = Missing permission
 log-type-automation-failed = Automation failed
+log-type-buttons-expiring = Buttons expiring
+log-buttons-expiring = Buttons on **{ $count }** older messages will stop working in 7 days, to make room for newer ones. To protect a message, turn on "Keep buttons working" in the message editor.
+log-field-messages = Messages
 log-automation-failed = The automation **{ $name }** ran, but an action failed.
 log-automation-unnamed = Unnamed
 
