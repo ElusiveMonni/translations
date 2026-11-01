@@ -522,7 +522,7 @@ reaction-role-single-removed = Role **{ $role }** removed
 reaction-role-single-added = Role **{ $role }** added
 reaction-role-guild-only = This button only works in guilds. How did you end up pressing this elsewhere?
 reaction-role-whitelist =
-    You can get this role only if you have one of the following roles:
+    You can only get this role if you have one of the following roles:
     { $roles }
 reaction-role-blacklist =
     You can't get this role as long as you have the following roles:
@@ -864,6 +864,7 @@ action-desc-use-item = Uses item **{ $item }**
 action-desc-use-selected-item = Uses selected item
 action-desc-for-each-member = Runs actions for up to { $count } members
 action-desc-random-member = Selects a random member
+action-desc-random-outcome = Picks a random outcome
 action-desc-purchase = Purchase **{ $item }**
 action-desc-purchase-selected = Purchase selected item
 action-desc-preview-product = Preview product
