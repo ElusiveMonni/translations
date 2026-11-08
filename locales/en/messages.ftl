@@ -634,6 +634,9 @@ moderation-purge-missing-permissions = Missing permissions to purge messages.
 moderation-case-not-found = Case #{ $case } not found!
 moderation-mute-role-too-high = The **{ $role }** role sits above Monni in the role hierarchy, so Monni can't add or remove it. Move the Monni role above it and try again.
 moderation-purge-result = Total of **{ $count }** messages purged
+moderation-purge-invalid-regex = That regex pattern isn't valid. Check it and try again.
+moderation-sync-failed = This wasn't applied in some connected servers:
+moderation-sync-unreachable = Monni couldn't reach that server.
 moderation-warn-dm-title = You were warned
 moderation-warn-dm-description = You were warned in **{ $guild }**.
 moderation-reason = Reason
@@ -1175,10 +1178,13 @@ log-type-item-remove = Item removed
 log-type-item-use = Item used
 log-type-permission-problem = Missing permission
 log-type-automation-failed = Automation failed
+log-type-moderation-failed = Moderation failed
 log-type-buttons-expiring = Buttons expiring
 log-buttons-expiring = Buttons on **{ $count }** older messages will stop working in 7 days, to make room for newer ones. To protect a message, turn on "Keep buttons working" in the message editor.
 log-field-messages = Messages
 log-automation-failed = The automation **{ $name }** ran, but an action failed.
+log-moderation-sync-failed = **{ $server }** shared a { $action } of { $member }, but Monni couldn't apply it here.
+log-moderation-expiry-failed = Monni couldn't finish the timed { $action } of { $member }, and has stopped trying. Check it and finish it by hand.
 log-automation-unnamed = Unnamed
 
 ## Log handlers: messages
