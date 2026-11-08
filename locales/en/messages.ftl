@@ -339,6 +339,8 @@ antibot-warning = { $member }, your messages look automated. Post in one more ch
         [kick] you will be removed from the server.
        *[timeout] you will be timed out.
     }
+antibot-warning-kick = { $member }, your messages look automated. Post in one more channel and you will be removed from the server.
+antibot-warning-no-action = { $member }, your messages look automated.
 antibot-kick-dm-title = You were removed from { $guild }
 antibot-kick-dm-description = Monni's automatic bot detection flagged your messages as automated. If your account was compromised, secure it before rejoining.
 antibot-kick-dm-rejoin = You can rejoin with the invite below. It works once and expires in 7 days.
@@ -1054,6 +1056,7 @@ log-button-view-alert = View alert
 
 log-could-not-determine = Monni noticed this was edited but could not determine what changed.
 log-content-hidden = The message was edited. This server does not include message content in logs.
+log-content-hidden-deleted = This server does not include message content in logs.
 log-content-too-long = Too long to show here, attached as files.
 log-title-in-channel = { $title } in { $channel }
 log-item-given = { $member } received { $amount } × { $item }
