@@ -525,6 +525,7 @@ reaction-role-guild-only = This button only works in guilds. How did you end up 
 reaction-role-whitelist =
     You can only get this role if you have one of the following roles:
     { $roles }
+reaction-role-whitelist-gone = The roles needed for this button no longer exist. Please contact server staff.
 reaction-role-blacklist =
     You can't get this role as long as you have the following roles:
     { $roles }
