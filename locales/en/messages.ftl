@@ -1193,11 +1193,16 @@ log-member-joined-title = Member joined
 log-member-joined = { $member }, welcome to **{ $server }**. You were **{ $position ->
        *[other] { $ordinal }
     }** to join.
+log-member-joined-plain = { $member }, welcome to **{ $server }**.
 log-member-account-created = **Account created** <t:{ $created }:F> (<t:{ $created }:R>)
 log-member-new-account = **New account warning**. Created <t:{ $created }:F> (<t:{ $created }:R>)
 log-member-joiner-id = Joiner id: { $id }
 log-member-left-title = Member left
 log-member-left = { $member } left. They joined <t:{ $joined }:R> (<t:{ $joined }:F>)
+log-member-left-time-in-server = { $member } left. They joined <t:{ $joined }:R>.
+log-member-left-joined-date = { $member } left. They joined <t:{ $joined }:F>.
+log-member-left-plain = { $member } left.
+log-member-left-count = The server now has **{ $count }** members.
 log-member-left-roles = Roles ({ $count })
 log-member-leaver-id = Leaver id: { $id }
 log-member-invite-used-title = Invite used
@@ -1346,6 +1351,9 @@ log-server-role-permissions = **Permissions**
 log-server-role-emoji = **Emoji**
 log-server-role-no-emoji = None
 log-server-role-id = Role id: { $id }
+log-server-stage-started = { $actor } started a stage in { $channel }: **{ $topic }**
+log-server-stage-updated = { $actor } updated the stage in { $channel }.
+log-server-stage-ended = { $actor } ended the stage in { $channel } (**{ $topic }**).
 log-server-guild-updated-title = Server updated
 log-server-guild-id = Server id: { $id }
 
