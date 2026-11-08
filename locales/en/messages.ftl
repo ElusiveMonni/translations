@@ -635,6 +635,7 @@ moderation-case-not-found = Case #{ $case } not found!
 moderation-mute-role-too-high = The **{ $role }** role sits above Monni in the role hierarchy, so Monni can't add or remove it. Move the Monni role above it and try again.
 moderation-purge-result = Total of **{ $count }** messages purged
 moderation-purge-invalid-regex = That regex pattern isn't valid. Check it and try again.
+moderation-cant-timeout-admin = Discord doesn't allow timing out administrators, so { $member } can't be timed out.
 moderation-sync-failed = This wasn't applied in some connected servers:
 moderation-sync-unreachable = Monni couldn't reach that server.
 moderation-warn-dm-title = You were warned
