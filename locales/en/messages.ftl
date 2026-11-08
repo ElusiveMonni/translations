@@ -993,6 +993,7 @@ points-send-success = { $sender } sent { $emoji } `{ $amount }` **{ $alias }** t
 
 log-unknown = Unknown
 log-none = None
+log-continued-in-file = Full log in the attached file.
 log-unknown-member = Unknown member
 log-likely = { $name } (likely)
 
