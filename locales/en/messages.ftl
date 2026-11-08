@@ -861,6 +861,7 @@ action-desc-remove-role = Removes role <@&{ $role }>
 action-desc-ban = Bans <@{ $member }>
 action-desc-kick = Kicks <@{ $member }>
 action-desc-delete-message = Deletes the message
+action-desc-delete-rule-messages = Deletes the messages that broke the rule
 action-desc-timeout = Times out { $member } for { $duration }s
 action-desc-warn = Warns { $member }
 action-desc-react = Adds a reaction to the message
