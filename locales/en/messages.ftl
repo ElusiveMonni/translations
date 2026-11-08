@@ -363,6 +363,7 @@ channel-link-code-missing = That code doesn't exist. Check you copied all of it.
 channel-link-code-used = That code has already been used. Generate a new one on the dashboard.
 channel-link-code-expired = That code has expired. Codes last { $minutes } minutes, so generate a new one.
 channel-link-no-permission = This server hasn't given that server permission to send messages here.
+channel-link-needs-premium = Linking a channel in another server needs Monni premium on the server that made this code.
 roblox-select-placeholder = Select an option
 roblox-select-badges = Badge data
 roblox-select-badges-description = Returns detailed data about user badges.
