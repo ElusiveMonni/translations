@@ -575,6 +575,7 @@ antibot-report-not-deleted = Some messages could not be deleted.
 antibot-report-no-dm = Could not DM the member.
 antibot-honeypot-title = Honeypot channel triggered
 antibot-honeypot-description = You posted in { $channel }, which exists only to catch bots. Members should never send messages there. You have been timed out.
+antibot-honeypot-description-no-action = You posted in { $channel }, which exists only to catch bots. Members should never send messages there.
 antibot-reason-honeypot = sent a message in { $channel }, a honeypot channel.
 antibot-reason-burst = sent { $count } messages in { $channel } in a few seconds.
 antibot-reason-spread = sent { $repeated ->
