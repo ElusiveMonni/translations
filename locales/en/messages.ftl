@@ -823,6 +823,7 @@ action-amount-invalid = Amount `{ $amount }` isn't a number.
 action-no-channel-available = No channel available to send the message to.
 action-channel-missing = Channel doesn't exist. Unable to send a message.
 action-channel-unreachable = Channel <#{ $channel }> doesn't exist or the bot can't see it.
+action-channel-not-text = <#{ $channel }> can't hold messages. Pick a text channel or thread.
 action-channel-not-set = No channel is set for this action. Pick one in the automation editor.
 action-channel-missing-rich = Channel doesn't exist. Unable to send a rich message.
 action-channel-id-missing = Channel <#{ $channel }> doesn't exist. Unable to send a message.
