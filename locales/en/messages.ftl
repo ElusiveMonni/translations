@@ -821,6 +821,7 @@ action-errors-header = The following actions failed:
 action-render-failed = Couldn't render `{ $value }`: { $error }
 action-amount-invalid = Amount `{ $amount }` isn't a number.
 action-no-channel-available = No channel available to send the message to.
+action-interaction-expired = This ran longer than the 15 minutes Discord allows for private replies, so it couldn't be sent.
 action-channel-missing = Channel doesn't exist. Unable to send a message.
 action-channel-unreachable = Channel <#{ $channel }> doesn't exist or the bot can't see it.
 action-channel-not-text = <#{ $channel }> can't hold messages. Pick a text channel or thread.
@@ -851,6 +852,7 @@ action-product-missing = Product not found.
 action-variable-name-empty = Variable name is empty.
 action-variable-mode-unknown = Unknown variable mode `{ $mode }`.
 action-variable-render-failed = Couldn't render the value for `{ $name }`: { $error }
+action-variable-too-large = The value of `{ $name }` got too large to count with.
 action-slot-unavailable = This action is not available.
 action-paginate-invalid-page = Invalid page expression `{ $expression }`, defaulting to page 1.
 
