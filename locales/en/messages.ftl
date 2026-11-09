@@ -935,6 +935,7 @@ condition-desc-verified-with-not = Must **NOT** be verified with { $provider }
 purchase-requirements-not-met = You don't meet the requirements to purchase this item.
 purchase-in-progress = A purchase is already being processed. Please wait a moment and try again.
 purchase-missing-role = You are missing { $role }!
+purchase-role-missing = This product needs a role that no longer exists. Ask the server's staff to fix it.
 purchase-not-enough = You don't have enough of `{ $name }`. You have **{ $amount }** and need **{ $required }**
 purchase-succeeded = Purchase of product succeeded
 purchase-refunded = Your payment was returned.
