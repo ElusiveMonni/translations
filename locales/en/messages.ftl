@@ -352,6 +352,7 @@ two-factor-enroll-description = Seems like the server has enabled 2FA for this c
 two-factor-enroll-manual = Can't scan? Enter this code manually
 two-factor-auth-title = 2FA Authentication
 two-factor-invalid-code = Invalid code. It may have expired. Try again with a fresh code from your Monni authenticator.
+two-factor-locked = Too many wrong codes. Try again in 15 minutes.
 two-factor-discord-code-warning = Please don't provide your Discord auth code.
 two-factor-not-enrolled-description = Seems like the server has enabled 2FA for this command. In order to proceed, please enable 2FA from your Monni [settings]({ $url }).
 two-factor-separate-footer = Monni 2FA is separate from Discord 2FA.
